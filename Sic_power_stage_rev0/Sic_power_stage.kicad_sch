@@ -1,0 +1,8142 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "40c6bde6-dca0-40b2-8abd-1f20772cb34b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "conn-100mil:CONN-100MIL-F-2x3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CONN-100MIL-F-2x3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "conn-100mil:CONN-100MIL-F-2x3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CONN-100MIL-F-2x3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN-100MIL-F-2x3_0_1"
+				(polyline
+					(pts
+						(xy -4.445 -4.445) (xy -4.445 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.905) (xy -4.445 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -4.445 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0.635) (xy -4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 4.445 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 4.445 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0.635) (xy 4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.27) (xy -4.445 1.905) (xy -3.175 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -4.445) (xy -3.81 -5.08) (xy -3.175 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.81 -2.54) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -3.81 0) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -4.445) (xy 3.81 -5.08) (xy 3.175 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 3.81 -2.54) (xy 3.175 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0.635) (xy 3.81 0) (xy 3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 1.905) (xy 4.445 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN-100MIL-F-2x3_0_2"
+				(polyline
+					(pts
+						(xy -1.905 -9.525) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -6.985) (xy -1.905 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy -1.905 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -12.7) (xy 1.905 -12.065)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -8.255) (xy 1.905 -6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -3.175) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -9.525) (xy -2.54 -10.16) (xy -3.175 -10.795)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -4.445) (xy -2.54 -5.08) (xy -3.175 -5.715)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -2.54 0) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -1.905 1.905) (xy -0.635 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -12.065) (xy 1.27 -12.7) (xy 0.635 -13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -6.985) (xy 1.27 -7.62) (xy 0.635 -8.255)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -2.54) (xy 0.635 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 1.905) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN-100MIL-F-2x3_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CONN-100MIL-F-2x3_1_2"
+				(pin passive line
+					(at -1.27 0 180)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -5.08 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -10.16 180)
+					(length 1.27)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 180)
+					(length 1.27)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "paltatech:MOUNTING_HOLE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HOLE"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "paltatech_MOUNTING_HOLE"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOUNTING_HOLE_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MOUNTING_HOLE_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pasv-res:R-1206"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-1206"
+				(at 6.35 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Chip resistor, EIA 1206, metric 3216"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOM" "RES SMD 1k 5% [1206]"
+				(at 19.05 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RESC3216X60"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-1206_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-1206_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power1:PWRGND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWRGND"
+				(at 0 -1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWRGND_0_0"
+				(text "PWR"
+					(at 0 -2.159 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(symbol "PWRGND_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWRGND_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "PWRGND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power1:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy 1.27 1.524) (xy 1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 105.41 31.75)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "09428e14-59b7-4a7d-ba03-b5ce11a58bde")
+	)
+	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "1db11d08-456d-4f8d-9983-6da7fa260b13")
+	)
+	(junction
+		(at 35.306 188.722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28aa6734-2b9e-4bbe-9a05-23f4b49046e3")
+	)
+	(junction
+		(at 226.06 137.16)
+		(diameter 0)
+		(color 0 0 255 1)
+		(uuid "35fdade2-427c-4d02-8cfb-bdfd1e82aca8")
+	)
+	(junction
+		(at 77.47 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51dfd1bc-c208-49d5-9a43-53f5a403d8f1")
+	)
+	(junction
+		(at 105.41 111.76)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "602c0bfc-9039-4852-8b88-7509e8bb706d")
+	)
+	(junction
+		(at 105.41 123.19)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "6383dede-0083-4cb3-8cc2-a52c4913c112")
+	)
+	(junction
+		(at 224.79 45.72)
+		(diameter 0)
+		(color 255 255 0 1)
+		(uuid "6d935fd4-cd8f-4f4b-8ff4-56b12c2347b3")
+	)
+	(junction
+		(at 35.306 191.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fd63542-9be0-4d4b-8f92-44f7b4456277")
+	)
+	(junction
+		(at 48.006 191.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5456078-a5a8-4ecf-b6b8-3366cd65b935")
+	)
+	(junction
+		(at 48.006 188.722)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af25a31a-03a7-4fea-ba00-0d08598967b6")
+	)
+	(junction
+		(at 105.41 77.47)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "b281c60d-ec4f-4640-bbcd-03f603be07d2")
+	)
+	(junction
+		(at 105.41 157.48)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "f67389b7-94fb-4537-b873-b6b1d2dc3c2e")
+	)
+	(junction
+		(at 226.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdae4e21-2f29-497e-b393-981b85b57022")
+	)
+	(no_connect
+		(at 98.298 41.91)
+		(uuid "072bf1f8-932c-4157-a774-a30f86fc524b")
+	)
+	(no_connect
+		(at 100.33 147.32)
+		(uuid "1574bc7f-8a9b-4b58-bdf8-2f1df0d58e8f")
+	)
+	(no_connect
+		(at 33.02 54.356)
+		(uuid "32e04717-e4c5-489e-bf0c-09380ce0d0a9")
+	)
+	(no_connect
+		(at 33.02 73.66)
+		(uuid "342f5c99-c037-402f-b21f-eff061307375")
+	)
+	(no_connect
+		(at 33.02 60.96)
+		(uuid "478c1f69-2d6f-4343-9f3e-5e6ff97d5c8b")
+	)
+	(no_connect
+		(at 98.298 87.63)
+		(uuid "47925712-2f18-4204-9509-05f8b2bf0c8b")
+	)
+	(no_connect
+		(at 100.33 55.88)
+		(uuid "48a68da0-0bd1-497e-8f06-3f7767e12b6e")
+	)
+	(no_connect
+		(at 33.02 48.006)
+		(uuid "52c43d98-4423-47ee-961a-bd91d8f3d04c")
+	)
+	(no_connect
+		(at 33.02 29.21)
+		(uuid "9088d6a7-4ad8-482d-8f18-08547a8f3f33")
+	)
+	(no_connect
+		(at 36.83 170.18)
+		(uuid "ae8172af-a7ec-4cf8-ab9e-37e2aacbc351")
+	)
+	(no_connect
+		(at 100.33 101.6)
+		(uuid "b176ed25-132f-4061-b487-e8c4bf2ad554")
+	)
+	(no_connect
+		(at 35.56 135.255)
+		(uuid "c2be1de6-9940-4312-ace6-bcd3060f2484")
+	)
+	(no_connect
+		(at 35.56 145.415)
+		(uuid "c5a8d6c6-3171-4b9a-8013-f8f537d2ba01")
+	)
+	(no_connect
+		(at 33.02 35.306)
+		(uuid "cb3ee33a-a29e-4169-91de-953ff9185724")
+	)
+	(no_connect
+		(at 46.99 170.18)
+		(uuid "cb9a5661-e789-4cce-b0e8-5b3050d9cafd")
+	)
+	(no_connect
+		(at 33.02 41.656)
+		(uuid "d10a3643-3594-4f49-a0f3-7143b953c70b")
+	)
+	(no_connect
+		(at 98.298 133.35)
+		(uuid "d7c5a657-e0f6-40e8-8563-61a187d32fe6")
+	)
+	(no_connect
+		(at 36.195 125.73)
+		(uuid "e1463860-79ff-4288-85f1-acd6bf83e304")
+	)
+	(no_connect
+		(at 33.02 67.31)
+		(uuid "f51e9ce8-d3e5-48be-9c1a-d32c83ef099c")
+	)
+	(wire
+		(pts
+			(xy 98.298 86.36) (xy 98.298 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0176993e-d784-495d-a84c-23ab96957f11")
+	)
+	(polyline
+		(pts
+			(xy 64.135 85.09) (xy 18.415 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "021591d6-4c87-484d-9da5-4c1a3bb374e6")
+	)
+	(wire
+		(pts
+			(xy 224.79 45.72) (xy 226.06 45.72)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "033f5eff-c3ff-4223-a80c-2693fe38d598")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "052550a6-34e7-42cc-abb6-b2ac48441912")
+	)
+	(wire
+		(pts
+			(xy 95.25 77.47) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "08f47d8d-6b61-4730-a7cd-54032ea477e9")
+	)
+	(wire
+		(pts
+			(xy 98.298 132.08) (xy 98.298 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09416912-d7e5-4399-84c7-c550cef5471e")
+	)
+	(wire
+		(pts
+			(xy 85.09 181.61) (xy 87.63 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e80ffd-e645-40cb-91ba-ee338652bc61")
+	)
+	(wire
+		(pts
+			(xy 31.115 115.57) (xy 36.195 115.57)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "0b0b8636-e2bf-4c11-af6a-b916b8289987")
+	)
+	(polyline
+		(pts
+			(xy 19.05 92.075) (xy 19.05 156.845)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0d3ffbf4-d252-4e88-930d-c9076290ca3a")
+	)
+	(wire
+		(pts
+			(xy 48.006 192.532) (xy 48.006 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117ef0f4-08c7-4038-b855-89be10b4b00e")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 96.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127c6503-610d-4db4-b4c7-6bbfcabb1624")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15acbed1-3195-44b2-87bd-5452d01caf83")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "19a685d6-1a75-4a57-9adf-fea227f8cc01")
+	)
+	(wire
+		(pts
+			(xy 110.49 40.64) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2b7036-4ba3-4095-bf7b-76334c2721dc")
+	)
+	(wire
+		(pts
+			(xy 105.41 31.75) (xy 119.38 31.75)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1b1fda9a-2f05-4441-b37a-abdca2241a77")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 119.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6134dc-04d8-4e89-9751-30eaac9eae46")
+	)
+	(polyline
+		(pts
+			(xy 18.415 20.32) (xy 64.135 20.32)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1cb76543-0a54-4947-9243-6708398babe5")
+	)
+	(wire
+		(pts
+			(xy 48.26 173.99) (xy 48.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21f217e6-6598-47ab-9ec8-180f530c4f22")
+	)
+	(wire
+		(pts
+			(xy 110.49 129.54) (xy 119.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a5c27a-b0d7-4322-a7b3-17d305845a67")
+	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2799536e-399c-4978-b6c3-79e3d25a4da1")
+	)
+	(wire
+		(pts
+			(xy 36.576 186.182) (xy 35.306 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0db030-f883-4488-8c27-04de159baaa1")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "2c03f6d0-81a7-491d-b1e8-1006fdc6f68a")
+	)
+	(wire
+		(pts
+			(xy 226.06 52.07) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "2e88a14d-13cd-4db4-872c-40bb32d0debd")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329effcd-11b8-4789-86d7-c7fb6f7e4122")
+	)
+	(polyline
+		(pts
+			(xy 19.05 92.075) (xy 64.77 92.075)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "33952800-9741-4740-96a3-aeb5f3b7b5bc")
+	)
+	(wire
+		(pts
+			(xy 110.49 35.56) (xy 119.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c6ca1f-41ee-4c4f-9af3-25c4fedf2834")
+	)
+	(wire
+		(pts
+			(xy 96.52 43.18) (xy 96.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ef6aa8-b1d0-4cab-9c5c-4bb641fe4257")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 226.06 143.51)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "3a103405-f21e-4489-8d1e-029cc2588f27")
+	)
+	(wire
+		(pts
+			(xy 93.98 151.13) (xy 119.38 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf8e9a9-c8c0-4534-83c1-47c9019b7a05")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce99c2e-2a8d-4a6a-b745-8465e2b9178b")
+	)
+	(wire
+		(pts
+			(xy 48.26 172.72) (xy 46.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e6af3f-29e2-4a0c-8153-e0ce3a85c28d")
+	)
+	(wire
+		(pts
+			(xy 93.98 142.24) (xy 93.98 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423960b8-54aa-4fa3-8295-3271239ef30a")
+	)
+	(wire
+		(pts
+			(xy 72.39 185.42) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43891de8-875f-4576-8bb3-a1fd0ae20aa6")
+	)
+	(wire
+		(pts
+			(xy 100.33 81.28) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b20281-b4e1-49e0-9f19-d59e993a1711")
+	)
+	(wire
+		(pts
+			(xy 227.33 143.51) (xy 226.06 143.51)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "45fcab42-6c7c-451e-a6ce-7c2a646936f6")
+	)
+	(wire
+		(pts
+			(xy 77.47 189.23) (xy 80.01 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ad23eb3-5983-43cd-8fec-afa6729956d6")
+	)
+	(wire
+		(pts
+			(xy 95.25 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4ae6c897-2755-48ed-984e-153948d3731d")
+	)
+	(wire
+		(pts
+			(xy 48.006 188.722) (xy 48.006 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f03f7c3-a918-459b-98c6-cfcafd147dba")
+	)
+	(wire
+		(pts
+			(xy 98.298 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5386a3-1b2a-46c5-8d74-a00ad918f650")
+	)
+	(wire
+		(pts
+			(xy 105.41 157.48) (xy 119.38 157.48)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "4f861207-b7c9-4dbd-8008-2c350c9dd6b8")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb727d9-cdb7-40ef-9110-b1e9040332b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 45.72) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fa9ae6-1cda-4109-a51f-27f0f31f7dbe")
+	)
+	(wire
+		(pts
+			(xy 35.56 167.64) (xy 36.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532859d3-89c0-4c6a-a82f-f4764a2c8d72")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "559fdd3f-ce03-43d3-b146-7e935717a5ae")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565f6712-b400-4854-a740-89a6096edc3d")
+	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(uuid "5661fd63-5ce5-48fb-a890-0c03e4561f2f")
+	)
+	(wire
+		(pts
+			(xy 110.49 144.78) (xy 119.38 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d62f35-0731-4bdf-ae7b-ac00c5be85c0")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 100.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596119d7-0897-4e6c-81c7-3f303f6e7f37")
+	)
+	(wire
+		(pts
+			(xy 35.56 173.99) (xy 35.56 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4b80db-31fa-470c-b29f-6417c120b171")
+	)
+	(polyline
+		(pts
+			(xy 64.135 20.32) (xy 64.135 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5b1dac92-df06-4201-829e-fb6cf578f782")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfababb-1ae5-4aae-a76a-60bfca8aa9b1")
+	)
+	(wire
+		(pts
+			(xy 119.38 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0b7129-e6c0-405e-90e7-482fc7393e4f")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f62af7f-3dec-451c-a8b3-34feacc681b5")
+	)
+	(wire
+		(pts
+			(xy 100.33 127) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60018cc0-e111-49b8-ab47-8eb413fcff88")
+	)
+	(wire
+		(pts
+			(xy 227.33 85.09) (xy 226.06 85.09)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "60904351-f4d0-4d4a-ab35-d45efafe891c")
+	)
+	(wire
+		(pts
+			(xy 48.006 186.182) (xy 46.736 186.182)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a60c5f-9717-4be2-a463-31dc688c2d2f")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "638b8f1f-d556-475e-ac8e-8424e067e43b")
+	)
+	(wire
+		(pts
+			(xy 110.49 147.32) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a633c8-1c4c-465a-9658-7d4ab9cf7c6f")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 119.38 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682e7523-3492-4963-b4fe-e42a4ec99a02")
+	)
+	(wire
+		(pts
+			(xy 119.38 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aeb71f-359e-40f8-a68d-5c7a0839d5af")
+	)
+	(wire
+		(pts
+			(xy 96.52 147.32) (xy 96.52 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a427e0d-b487-4f1f-8dfe-2ef8b42f6f96")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c68f953-462b-4748-acf5-47d4ac337105")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 96.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce366ca-8265-44fe-b2c9-af20fafaa3f8")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "6e92341c-9969-45c7-b37e-794a97f366e8")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea33770-8423-4e29-9642-125c19352f8e")
+	)
+	(wire
+		(pts
+			(xy 224.79 39.37) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "72f7a3fe-d713-4360-b181-d281d5c2d69a")
+	)
+	(wire
+		(pts
+			(xy 35.306 191.262) (xy 36.576 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b6331a-cee1-4d9b-bf5e-375afde26a7e")
+	)
+	(wire
+		(pts
+			(xy 80.01 181.61) (xy 77.47 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7fdc57-2a3a-45bb-a796-850cb9089f5b")
+	)
+	(wire
+		(pts
+			(xy 95.25 31.75) (xy 105.41 31.75)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "7fe8e704-c8ad-4670-ad32-d34baee55766")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813a33d8-39cd-4611-a8b4-e71ba6abda3c")
+	)
+	(wire
+		(pts
+			(xy 100.33 50.8) (xy 93.98 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81faa660-65bf-48d5-9d6f-21bac255fba4")
+	)
+	(wire
+		(pts
+			(xy 105.41 30.48) (xy 105.41 31.75)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "867dfca6-8033-43fd-877c-01eff7dc89f3")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "88a50800-555c-45b7-8b84-40f300c64a83")
+	)
+	(polyline
+		(pts
+			(xy 64.77 156.845) (xy 19.05 156.845)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "88b70ae9-116a-443a-a9c9-ca5f15a5d581")
+	)
+	(wire
+		(pts
+			(xy 227.33 97.79) (xy 226.06 97.79)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "8997fc50-b5bd-4d6a-8fe3-de6b5c758e36")
+	)
+	(wire
+		(pts
+			(xy 182.88 137.16) (xy 226.06 137.16)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "8d9e0240-365a-481e-a6ec-0dc45eeffa15")
+	)
+	(wire
+		(pts
+			(xy 226.06 97.79) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "8f5cb96b-3983-4d2d-b90a-d83e8f43fd63")
+	)
+	(wire
+		(pts
+			(xy 105.41 157.48) (xy 105.41 158.75)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "91e0ad1c-9da5-4c8d-b71a-c1282d8d05fd")
+	)
+	(wire
+		(pts
+			(xy 77.47 185.42) (xy 77.47 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c15e38-98d6-4628-be71-d104edd105b0")
+	)
+	(wire
+		(pts
+			(xy 36.576 188.722) (xy 35.306 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "945b4e15-da58-4f2e-bf64-9f24952b0b73")
+	)
+	(wire
+		(pts
+			(xy 93.98 45.72) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953700a4-990c-4aea-a644-8b9f12e13b74")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b0e3a1-c1fc-47f8-bd75-e43e6a04101f")
+	)
+	(wire
+		(pts
+			(xy 100.33 142.24) (xy 93.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c82d41-194f-4f6e-a964-330aad149170")
+	)
+	(wire
+		(pts
+			(xy 85.09 189.23) (xy 91.44 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f2a4ec-6659-4890-aa4e-4370735991ba")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.92) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9697da8c-835f-41d3-9202-30e955c7c76f")
+	)
+	(wire
+		(pts
+			(xy 110.49 132.08) (xy 119.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aef7794-5d41-402d-ba8a-c7d580e09a9d")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9c989a4a-5c01-40e8-aabb-a2c4e646e391")
+	)
+	(wire
+		(pts
+			(xy 35.306 192.532) (xy 35.306 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3916ac-4181-4498-a4a7-8c8815a4130a")
+	)
+	(wire
+		(pts
+			(xy 226.06 130.81) (xy 226.06 137.16)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "9ebb6427-f059-415d-b916-1d62fe43d6a2")
+	)
+	(wire
+		(pts
+			(xy 100.33 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ecea42-780e-4a5c-8bf5-0be1ffcb0c16")
+	)
+	(wire
+		(pts
+			(xy 35.306 186.182) (xy 35.306 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81acd97-ab49-4807-822f-ce84ed81a0dc")
+	)
+	(wire
+		(pts
+			(xy 48.006 188.722) (xy 46.736 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18e9892-5968-4812-bff4-8cfe5693a5c5")
+	)
+	(wire
+		(pts
+			(xy 182.88 45.72) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "b2a73caa-fa2d-4d65-ad96-f79d8b423586")
+	)
+	(wire
+		(pts
+			(xy 100.33 96.52) (xy 93.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b530962d-abb7-4675-9a2a-36166fdab956")
+	)
+	(wire
+		(pts
+			(xy 98.298 132.08) (xy 100.33 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b781ca64-3331-4a19-933a-51e12268c90e")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 227.33 91.44)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 132 0 1)
+		)
+		(uuid "b7d9bd15-71cb-4ec7-beef-d318b4fc802c")
+	)
+	(wire
+		(pts
+			(xy 95.25 157.48) (xy 105.41 157.48)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "bd17beac-fffe-4540-909a-7abf23a53e19")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6bcc38-7ceb-4c4a-9a36-c12289655612")
+	)
+	(wire
+		(pts
+			(xy 92.71 181.61) (xy 96.52 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c127c4d3-3245-4acd-a9d1-e4493d92a7a9")
+	)
+	(wire
+		(pts
+			(xy 48.26 167.64) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a51be5-3723-4795-bb54-d756de0a8d84")
+	)
+	(wire
+		(pts
+			(xy 48.006 191.262) (xy 46.736 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21b1860-1f50-47a4-ad8a-f2d8cf25319c")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6879587-100e-40b8-8332-1d8d4ca8f0bf")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6ed0eae-9863-446f-83c1-cc08f9783453")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a8a0bb-c02f-4146-a611-3334a5658398")
+	)
+	(polyline
+		(pts
+			(xy 64.77 92.075) (xy 64.77 156.845)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c97a4bbf-1b6d-40f0-b5b9-8fa3bbb40dff")
+	)
+	(wire
+		(pts
+			(xy 110.49 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab8b4e3-28c4-4dc8-805a-3cc3f96e956a")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 119.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba9d37c-fb44-40e9-9fe1-402831e836c2")
+	)
+	(wire
+		(pts
+			(xy 96.52 144.78) (xy 100.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2d80d4-9b6e-45d8-aa1e-e925d8738a2f")
+	)
+	(wire
+		(pts
+			(xy 105.41 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "cef78013-dc77-4189-aea7-7ccd4b76cfd2")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 93.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0dcb7bb-c964-4c6d-a14f-0deb3c69626d")
+	)
+	(wire
+		(pts
+			(xy 35.306 188.722) (xy 35.306 191.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e462e2-ea5d-4f34-ac8a-8a9b01431716")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e8accd-af66-4e81-8222-b72d17ce7caf")
+	)
+	(wire
+		(pts
+			(xy 98.298 40.64) (xy 98.298 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25505a4-0edc-45fb-9b57-155b236dc6b6")
+	)
+	(wire
+		(pts
+			(xy 110.49 142.24) (xy 119.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c1597d-2cea-4c6f-94ba-b584c3d8711e")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d398bce7-15f6-48db-9e63-e1d7014382e3")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77fe694-c267-468a-9e8c-a34b225adb2f")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a7c096-b953-421a-952c-c0b9dd6580a3")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6a9922-cce7-482c-94e9-ad956bd6cad7")
+	)
+	(wire
+		(pts
+			(xy 226.06 39.37) (xy 224.79 39.37)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "da721e37-80ae-462b-ab86-437132a3e77f")
+	)
+	(wire
+		(pts
+			(xy 98.298 86.36) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11ce058-a65a-4dfd-818e-2ad7ae444c08")
+	)
+	(wire
+		(pts
+			(xy 31.115 115.57) (xy 31.115 117.475)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e5368bb7-5430-40ce-baf4-37fc7a58e8dc")
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 36.83 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7da9f62-40df-4a39-bf29-37d74b4cd963")
+	)
+	(wire
+		(pts
+			(xy 48.006 191.262) (xy 48.006 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d9ed7b-b8c2-43d2-bb4e-f563223cd9fa")
+	)
+	(wire
+		(pts
+			(xy 31.115 104.14) (xy 31.115 105.41)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ea0269f1-9794-43bc-b7ac-de713820091f")
+	)
+	(wire
+		(pts
+			(xy 31.115 105.41) (xy 36.195 105.41)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ea0e6f19-5489-4a2b-adf1-6d478637991d")
+	)
+	(wire
+		(pts
+			(xy 77.47 181.61) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea132c98-1a6a-4dff-9d96-d928202755ea")
+	)
+	(wire
+		(pts
+			(xy 72.39 182.88) (xy 72.39 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef877092-b426-4aeb-8d1d-5146117fed3a")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f0e5be60-3194-49aa-817f-f217adb11860")
+	)
+	(polyline
+		(pts
+			(xy 18.415 20.32) (xy 18.415 85.09)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f2fafb53-dc71-463b-9069-4d1d05da7608")
+	)
+	(wire
+		(pts
+			(xy 95.25 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "f41c93da-2b2b-4336-a5f7-73347c186f72")
+	)
+	(wire
+		(pts
+			(xy 224.79 52.07) (xy 224.79 45.72)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 255 255 0 1)
+		)
+		(uuid "f70ed6ba-9719-4ebd-b951-118497d587ea")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0.25)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "fc3fcf88-bbd3-49ab-aa41-f35fe9c8f369")
+	)
+	(text "High current M6 terminals"
+		(exclude_from_sim no)
+		(at 18.415 91.44 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f787a1-ba0d-4c14-9fa2-d7450a744d36")
+	)
+	(text "Mounting holes for M3 standoffs"
+		(exclude_from_sim no)
+		(at 18.415 20.32 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dcf715b-7c44-433c-8c35-f5271688717f")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 250.19 93.345 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c61163-cca9-41e1-b367-bc573dc1b42d")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 248.92 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1b9b19-32ad-48fe-ab3f-951673c8dc54")
+	)
+	(text "Phase C"
+		(exclude_from_sim no)
+		(at 250.19 139.065 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1ea16aa-4644-4d5f-81e6-21a7c4ac636e")
+	)
+	(text "SiC MOSFET Powerstage"
+		(exclude_from_sim no)
+		(at 162.814 22.86 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeee3bff-e8b2-4ab9-9dfd-c536019029c4")
+	)
+	(label "nc_a"
+		(at 98.298 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a6e0daa-020d-4a30-ae57-593a787ea33c")
+	)
+	(label "nc_a"
+		(at 98.298 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "64fd983b-290c-4f55-9646-97c867eacc3a")
+	)
+	(label "nc_a"
+		(at 98.298 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3457d9e-e480-45f2-b649-26ea0721faa4")
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 48.006 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0014e194-375f-4285-a28e-5c0b8ea36a45")
+		(property "Reference" "HOLE4"
+			(at 41.3512 47.0408 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 48.9712 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4f7c7f4-4b5f-4d5a-aaba-6ee8222dd283")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 96.52 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d26dc4-983b-4e3d-b5af-e16f1574f401")
+		(property "Reference" "#PWR016"
+			(at 97.79 181.61 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 98.7552 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fe453a9-1ea0-441c-a663-6591b8371a1c")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 41.656 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0460a539-1f49-4e24-97c8-224d435afb71")
+		(property "Reference" "HOLE3"
+			(at 41.3512 40.6908 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 42.6212 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b8b33e-83d5-4d4f-8cab-04cd1d8df730")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b5edc5-d31f-4776-bb5d-d544e7a4d6a9")
+		(property "Reference" "STANDOFF10"
+			(at 235.6612 84.1248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 86.0552 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45bc7de6-a37e-41d6-a8c0-afeff9feeb06")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 105.41 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ae17487-3fdd-47df-909b-7beaeb5d6477")
+		(property "Reference" "#PWR03"
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 105.41 69.088 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b353820-473f-4bf7-8173-a8b925cfb123")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca572c7-4fbb-414f-8dbc-50a63a3bdb18")
+		(property "Reference" "J5"
+			(at 105.41 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 123.2154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe0efad-7c48-42bc-bc2c-cf1e53afe637")
+		)
+		(pin "2"
+			(uuid "6cc1dfb7-1efc-4fdb-bb53-bc6565da8166")
+		)
+		(pin "3"
+			(uuid "9acbf60d-8fb1-4ae1-bf45-530e06968401")
+		)
+		(pin "4"
+			(uuid "c248e69d-2592-439c-a5ea-f2dacb5fa584")
+		)
+		(pin "5"
+			(uuid "3276aa48-7730-49ef-a992-b71b628289df")
+		)
+		(pin "6"
+			(uuid "5b93e855-59cd-4b83-a39b-40a65aee5468")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 105.41 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11920928-cba3-4c69-bc61-0aa6a0f3fc30")
+		(property "Reference" "#PWR02"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 105.41 27.1018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f3a4588-6c7c-49ea-8586-6acd0436af91")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 91.44 189.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1210e227-39b3-49c4-809f-5499de67ce7b")
+		(property "Reference" "#PWR021"
+			(at 91.44 189.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 93.218 189.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada0e3df-8189-44c7-8130-d9e5a9f260d4")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 105.41 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "140d29b3-56d8-435c-9227-5f74bbacceba")
+		(property "Reference" "#PWR08"
+			(at 105.41 120.65 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 105.41 118.5418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "964a60a7-4c8f-4ac5-8cd1-1389dd44c7dc")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "141508a4-4017-48a0-9a8b-f4de1c5d2406")
+		(property "Reference" "STANDOFF3"
+			(at 86.9188 76.5048 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 78.4352 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e52a65f9-50d5-48df-9acf-4ba20c88832c")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 82.55 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20bccff0-7677-4123-be52-1f7ad9fb94a2")
+		(property "Reference" "R40"
+			(at 84.328 178.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 83.8516 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 82.55 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 82.55 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 68.58 162.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e58fff-efb8-43b4-8f83-f4b559478898")
+		)
+		(pin "2"
+			(uuid "4614d458-e1b7-4a25-94e8-f535c60d53d4")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25444712-e04a-42d5-9535-67188e1375f4")
+		(property "Reference" "HOLE7"
+			(at 41.3512 66.3448 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 68.2752 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f14cc0ff-429c-4f6f-accd-b867ed15910f")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 35.306 192.532 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25dcc2f8-bb9c-425f-8f87-90a9f14627a2")
+		(property "Reference" "#PWR012"
+			(at 35.306 192.532 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 35.306 194.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.306 192.532 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.306 192.532 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.306 192.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccd256cd-5083-492b-bc2c-5f3f55ed6ec2")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 40.64 135.255 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "305bf533-0fa0-40ef-8653-82ccc38a1bf3")
+		(property "Reference" "STANDOFF16"
+			(at 43.8912 134.2898 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M6"
+			(at 43.8912 136.2202 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "Brass Inserts(M6*8*12)"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HKY"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Brass Inserts(M6*8*12)"
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 40.64 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06c1601c-13fe-4bed-9ef7-2b20f7e5d0e1")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "357eb354-e7c1-423f-90e0-5abcfe08d97a")
+		(property "Reference" "STANDOFF1"
+			(at 86.9188 30.7848 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 32.7152 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "275e9fee-d1e9-4af1-a3ff-c12d3cb22803")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 48.006 192.532 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3597eebd-4850-48d7-82b9-c45ceeeaa65a")
+		(property "Reference" "#PWR015"
+			(at 48.006 192.532 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 48.006 194.31 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.006 192.532 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.006 192.532 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.006 192.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86786df3-bfa2-49c6-a832-d8cc79a27864")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 96.52 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3875a964-35b0-4bac-9ef4-46043e74a632")
+		(property "Reference" "#PWR01"
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 96.52 57.658 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f07292c2-b40c-4317-8a29-aa54aeaff73c")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 231.14 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "390870f0-6b48-4940-a00e-7a60d958031e")
+		(property "Reference" "STANDOFF7"
+			(at 234.3912 38.4048 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 234.3912 40.3352 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 231.14 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 231.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 231.14 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fecaf079-f4a6-4e5c-8f86-07c43ad732c0")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 31.115 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3951d4cf-474d-4f1e-a971-b17508a641dd")
+		(property "Reference" "#PWR011"
+			(at 31.115 117.475 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 31.115 119.253 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 117.475 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 117.475 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0afb3653-8176-4109-abc6-d6fc61c7c1a1")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3adbb4dc-5152-4010-b963-08aaa7d95928")
+		(property "Reference" "HOLE6"
+			(at 41.3512 59.9948 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 61.9252 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f20351d-0872-4544-8200-473a0071030b")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 96.52 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d99a34e-89a6-41e8-a17f-b1826ef25806")
+		(property "Reference" "#PWR07"
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 96.52 149.098 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42777156-3131-4fb4-aeb0-9f8c099d3570")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eaea58c-eb36-4991-b1f9-ee7fdc208ab7")
+		(property "Reference" "STANDOFF14"
+			(at 235.6612 136.1948 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 138.1252 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217ba31a-bd75-44c6-82b2-022252ce4bef")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 105.41 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ff1e59d-c540-4cde-8432-ac1ec4862034")
+		(property "Reference" "#PWR09"
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 105.41 160.528 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44fd5d4e-a4f1-45a7-9a6b-993bf7bda587")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 40.64 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43384e69-bc68-4234-babd-e4fd36c42e2b")
+		(property "Reference" "STANDOFF17"
+			(at 43.8912 144.4498 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M6"
+			(at 43.8912 146.3802 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "Brass Inserts(M6*8*12)"
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HKY"
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Brass Inserts(M6*8*12)"
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 40.64 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b9a9e88-1475-494b-bfa5-c9f256d01673")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 41.656 186.182 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43e8872d-1650-4d02-9e39-27bd54e5af09")
+		(property "Reference" "J7"
+			(at 41.656 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 41.656 182.3974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 41.656 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.291 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.656 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 41.656 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 41.656 186.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f75ee32e-7f36-4e08-9481-f4b6fd7ecb1e")
+		)
+		(pin "2"
+			(uuid "a7ec8e40-3589-41c2-8bc2-165cdcf5c307")
+		)
+		(pin "3"
+			(uuid "956108a9-0f23-4825-b223-0477fc457e01")
+		)
+		(pin "4"
+			(uuid "f7096b57-beeb-4333-af03-1066818ae233")
+		)
+		(pin "5"
+			(uuid "b9fff0a8-3784-4703-8235-e29777b45f44")
+		)
+		(pin "6"
+			(uuid "5b2812c1-6929-4657-8dd3-e33119aeb76b")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 35.56 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ca0496e-82d4-4d05-8537-968a09b23ce1")
+		(property "Reference" "#PWR024"
+			(at 34.29 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_low"
+			(at 33.3248 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e08264-6d23-4988-88d1-b8374331eeec")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 31.115 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e579089-10aa-4d65-9d1a-829b75c51c38")
+		(property "Reference" "#PWR010"
+			(at 31.115 102.87 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 31.115 100.7618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b02ebce-ba9d-4d70-9c6f-bb4a14eaa99f")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 35.56 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "561c02c1-8326-4a44-bc86-6943ba33f6e7")
+		(property "Reference" "#PWR014"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 35.56 175.768 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cb78c12-6411-4770-9915-063b1f735d05")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ca9efd1-7b25-4fa5-8b79-7b051d01da26")
+		(property "Reference" "STANDOFF15"
+			(at 235.6612 142.5448 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 144.4752 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dadbe283-e776-413b-ba1c-7b868750c3ca")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6270bd53-6afc-4d4b-96cc-59e6522573da")
+		(property "Reference" "STANDOFF13"
+			(at 235.6612 129.8448 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 131.7752 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d9c3a08-38fa-40e2-8842-097de7305120")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 105.41 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ba538e-b006-4853-8ebf-b924cae750ca")
+		(property "Reference" "#PWR05"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 105.41 72.8218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63396e72-2d7f-4004-94c2-f9ade0e332d2")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724fb081-5374-404f-b17f-a98c529b41da")
+		(property "Reference" "STANDOFF11"
+			(at 235.6612 90.4748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 92.4052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e7f4d5-2eb2-400a-b046-4eab2247f295")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 41.91 167.64 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76e20e91-216b-4a65-b36f-3d71f1fe4e3e")
+		(property "Reference" "J8"
+			(at 41.91 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 41.91 163.8554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.545 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228354c3-edfe-4e35-acb4-7477adf308c1")
+		)
+		(pin "2"
+			(uuid "5fb5d564-3d05-4d17-b4b7-dd8d5829df16")
+		)
+		(pin "3"
+			(uuid "ecb63769-7527-42a2-8f93-0dde3ce96090")
+		)
+		(pin "4"
+			(uuid "5fdb7db1-ccd4-4b51-acdf-8ce109ee5163")
+		)
+		(pin "5"
+			(uuid "215073bf-70ff-4432-b365-666645b5a8a7")
+		)
+		(pin "6"
+			(uuid "bf881764-4ff0-468b-9887-034897db3a3f")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 90.17 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79bc1bd7-f25c-40d8-ab47-13bba07a3cc8")
+		(property "Reference" "R42"
+			(at 92.202 178.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 91.4716 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 90.17 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 90.17 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 76.2 162.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98cfec55-eda4-4fae-8809-deb387f2de98")
+		)
+		(pin "2"
+			(uuid "544c5ecc-f084-4abe-ad68-4901a75ee725")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c0a7059-1704-4c66-b672-84bcd9f1eb6e")
+		(property "Reference" "HOLE8"
+			(at 41.3512 72.6948 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 74.6252 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "434f416f-a6fc-4f81-88dd-0c5419035850")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7df5cbe2-273c-42f4-bce0-a2debb7b930a")
+		(property "Reference" "STANDOFF6"
+			(at 86.9188 156.5148 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 158.4452 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "741498fe-76ea-4bb8-a8a9-ac7e26d986da")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 231.14 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80003829-8803-4cb5-af79-aeaee8f79f1d")
+		(property "Reference" "STANDOFF8"
+			(at 234.3912 44.7548 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 234.3912 46.6852 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 231.14 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9c2746-e42f-4c72-bc4d-c94a68499144")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 55.88 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80a56229-b435-482a-98ca-b584042ac0e5")
+		(property "Reference" "J2"
+			(at 105.41 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 48.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa93f3b-9350-4a9e-9e70-e8d57b69e3cc")
+		)
+		(pin "2"
+			(uuid "5cc6d518-c254-4603-b591-c2a7823588cc")
+		)
+		(pin "3"
+			(uuid "abc37b45-3971-4118-bae9-006c4584e48d")
+		)
+		(pin "4"
+			(uuid "dde3a0f7-4941-4810-9125-faab5b75e3ec")
+		)
+		(pin "5"
+			(uuid "39635ab6-914a-4e0c-a767-d1967eb6fd8e")
+		)
+		(pin "6"
+			(uuid "cb68e35b-d1b9-4e0f-8b3b-b67ed0246b1b")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 48.26 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "861083bc-f257-4a8a-9804-60f6553c4845")
+		(property "Reference" "#PWR023"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_low"
+			(at 50.4952 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe4f083-697f-4721-9820-c7d5e6a60064")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 82.55 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "892fa4ba-b210-4aa2-a4b4-eda2706e3225")
+		(property "Reference" "R41"
+			(at 84.582 186.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 83.8516 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 68.58 170.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "449c4386-56cf-4b0e-8e3d-9a69e1166adb")
+		)
+		(pin "2"
+			(uuid "b0cb5814-5951-40ad-a9e1-eccc0b014230")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a3ab718-94dd-4eee-a51b-6d97c2c565b0")
+		(property "Reference" "J4"
+			(at 105.41 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 93.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "314c2f8d-a265-4cf9-9c51-e5a088f18304")
+		)
+		(pin "2"
+			(uuid "288b0e7d-50c6-4cfb-85b9-cad4346318b8")
+		)
+		(pin "3"
+			(uuid "dcb05b95-a00e-4da0-aa6c-879d3dfc9dcc")
+		)
+		(pin "4"
+			(uuid "454dd83a-053d-44dc-99ba-df7ea5a56fb9")
+		)
+		(pin "5"
+			(uuid "a59f32dc-cff2-4472-a93a-6fb8405d6f9d")
+		)
+		(pin "6"
+			(uuid "d4c66d6c-94aa-435a-be50-6e1e79954703")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 35.306 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c7128ee-7500-4b29-99b4-1c30b86d88fe")
+		(property "Reference" "HOLE2"
+			(at 41.3512 34.3408 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 36.2712 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a8be88-f5ee-4a47-aabe-7f547cbcda15")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 96.52 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ddf1a54-44b1-4f73-bc4c-6b9f30b9a358")
+		(property "Reference" "#PWR04"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 96.52 103.378 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17752bd8-79a3-4541-8ef6-7c32f9cedec1")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 54.356 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ff1c0a5-f461-45c0-bdb8-e3ca9959de44")
+		(property "Reference" "HOLE5"
+			(at 41.3512 53.3908 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 55.3212 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0571c47-c6e4-4ba4-9205-6e52cb89d163")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9c5c3ab-3cde-464d-8a82-46508a7692ab")
+		(property "Reference" "J1"
+			(at 105.41 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 31.7754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "590c0ee1-bbf2-4a49-8574-cd6d923fc375")
+		)
+		(pin "2"
+			(uuid "fbc147ce-f786-4d67-a746-85fd0eed88e6")
+		)
+		(pin "3"
+			(uuid "2e2de270-e070-4101-8fb1-dd5e01a34d2b")
+		)
+		(pin "4"
+			(uuid "32192800-9e02-428e-8862-7aa57dd5eb42")
+		)
+		(pin "5"
+			(uuid "7c67dc89-ce9a-4c14-a53d-abce90630a48")
+		)
+		(pin "6"
+			(uuid "6a907f2f-26a0-4c21-a386-39c10935a2e3")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 41.275 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9e60826-6cd1-4b1f-bb21-d387fa433a53")
+		(property "Reference" "STANDOFF19"
+			(at 44.5262 114.6048 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M6"
+			(at 44.5262 116.5352 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "Brass Inserts(M6*8*12)"
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HKY"
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Brass Inserts(M6*8*12)"
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 41.275 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60622389-61d2-4936-b7a7-2817328ae79a")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba0fd0e0-c936-480d-9b7f-ec0cfba83af8")
+		(property "Reference" "J3"
+			(at 105.41 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 77.4954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1adbe223-0bb4-4792-b9e3-b7c35f07d09a")
+		)
+		(pin "2"
+			(uuid "2b3c417d-2845-46a8-a151-deebae89c267")
+		)
+		(pin "3"
+			(uuid "f60ceec9-4f75-4a01-918e-56aa85a3c47d")
+		)
+		(pin "4"
+			(uuid "43aed7f9-8a7b-4115-8a69-8908be36f365")
+		)
+		(pin "5"
+			(uuid "5d8e029b-8ee8-4a52-b4d5-f14f8dcde890")
+		)
+		(pin "6"
+			(uuid "02ed245e-fb52-486b-ada7-4a924cd51a21")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 48.26 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc4eceb6-a7b0-40c7-aee5-44ca9b5183f6")
+		(property "Reference" "#PWR017"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 48.26 175.768 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3704160-b72c-460e-b082-4ad628c76e76")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 41.275 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c19465b8-d3fc-42f7-97a5-906da76ad3a9")
+		(property "Reference" "STANDOFF18"
+			(at 44.5262 104.4448 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M6"
+			(at 44.5262 106.3752 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "Brass Inserts(M6*8*12)"
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HKY"
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Brass Inserts(M6*8*12)"
+			(at 41.275 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff54bbc2-835e-4b44-a7d0-5b9ab76bd0d6")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 232.41 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0248bbd-d48f-4238-a648-d26841ec11b2")
+		(property "Reference" "STANDOFF12"
+			(at 235.6612 96.8248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 235.6612 98.7552 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d108262-84fd-42fd-9b54-9b12bdaacf1c")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 231.14 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ac9d37-8b2b-4e8f-b0f0-8724e1bba74a")
+		(property "Reference" "STANDOFF9"
+			(at 234.3912 51.1048 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 234.3912 53.0352 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d546ba-7e18-4778-84e1-267a40efdbf8")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b49aa6-6e91-4bd7-824c-b480c89ff799")
+		(property "Reference" "STANDOFF4"
+			(at 86.9188 110.7948 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 112.7252 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dd48402-854d-4927-b69b-947ca8832f76")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 38.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e52ae000-7ce8-470d-b5f6-d7f99260879d")
+		(property "Reference" "HOLE1"
+			(at 41.3512 28.2448 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M3"
+			(at 41.3512 30.1752 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:SMTSO-36-6"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-36-60-MTJ"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "M3 Standoff "
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "464885cc-a377-4cd3-b619-7ef8a9beb2ba")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "HOLE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 41.275 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e72e0031-af71-4f2e-b371-cbfe6175b2df")
+		(property "Reference" "STANDOFF20"
+			(at 44.5262 124.7648 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M6"
+			(at 44.5262 126.6952 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "Brass Inserts(M6*8*12)"
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "HKY"
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Brass Inserts(M6*8*12)"
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 41.275 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "756492dc-d796-4765-9bfb-e5f1f098d779")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VBUS")
+		(at 72.39 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d5c5e8-cea4-4fbb-9e1f-911739574519")
+		(property "Reference" "#PWR022"
+			(at 72.39 181.61 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_low"
+			(at 72.39 180.6448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56d20775-5767-46c0-b00a-07bbb1453927")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edbdfcb9-46ed-4b1a-9369-e0e53875f4c1")
+		(property "Reference" "STANDOFF5"
+			(at 86.9188 122.2248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 124.1552 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5680e198-9541-4375-bc23-719da9e27b52")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:PWRGND")
+		(at 105.41 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee98098e-1e35-49fa-b820-01aa09da9fb8")
+		(property "Reference" "#PWR06"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 105.41 114.808 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1db99d0-41d2-40bb-8af9-6e52e4b39b88")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "paltatech:MOUNTING_HOLE")
+		(at 90.17 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "efadfd4d-faa7-4738-b66b-129b9f006334")
+		(property "Reference" "STANDOFF2"
+			(at 86.9188 65.0748 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMD_SPACER_M4"
+			(at 86.9188 67.0052 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMD-Standoffs:Standoff_M4"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMTSO-40-120-M-T-S"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sinhoo"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP" "DNP"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24b8c61d-ebd9-4201-a6b3-eb446b1e4c1e")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "STANDOFF2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
+		(at 105.41 147.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f91f3aa3-e282-44d5-8135-15665078708b")
+		(property "Reference" "J6"
+			(at 105.41 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021321-00006C4LF"
+			(at 105.41 139.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "conn-fci:CONN-20021321-00006C4LF"
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.775 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20021321-00006C4LF"
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol"
+			(at 105.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8590888-917c-4c70-bb19-a541cd97829d")
+		)
+		(pin "2"
+			(uuid "dac7b03a-223f-47e5-95c4-f4e7aa1cd3ed")
+		)
+		(pin "3"
+			(uuid "443f7281-22c8-49f8-bb1d-f30bf5fe3538")
+		)
+		(pin "4"
+			(uuid "e6a8cb27-dc8c-4b5a-a069-12912360d67d")
+		)
+		(pin "5"
+			(uuid "b061f00f-edf2-4191-954d-d68fc84ab6bb")
+		)
+		(pin "6"
+			(uuid "35fced21-7f45-45f2-8b03-0f878c406ddd")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 76.2)
+		(size 63.5 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24081cfa-0625-4c61-9049-ae8e6ac02272")
+		(property "Sheetname" "Half Bridge B"
+			(at 119.38 75.3614 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SiC_powerstage.kicad_sch"
+			(at 119.38 114.9862 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S_BOT" input
+			(at 119.38 101.6 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "01ead457-c346-46ec-bfce-95d45bcc7b2a")
+		)
+		(pin "GND" input
+			(at 119.38 111.76 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "4818dfea-0106-4fda-b5bf-8ca0cd6ce405")
+		)
+		(pin "D_BOT" input
+			(at 119.38 96.52 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "49116dd9-3b6f-476f-9cbf-8877847566d0")
+		)
+		(pin "S_TOP" input
+			(at 119.38 86.36 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "2d2e7708-00e0-4d96-bba6-1a1f7bff104a")
+		)
+		(pin "G_BOT" input
+			(at 119.38 99.06 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "6bc7a287-2c59-4eb1-9334-0216dbb03deb")
+		)
+		(pin "D_TOP" input
+			(at 119.38 81.28 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "0f00cf5a-277c-4c6e-a628-01cb256f4ad9")
+		)
+		(pin "G_TOP" input
+			(at 119.38 83.82 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "31a219fd-9dbe-4549-b585-9897af8c4ac7")
+		)
+		(pin "VBUS" input
+			(at 119.38 77.47 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "3a2cfbd9-7831-4700-81bf-edbb6011158b")
+		)
+		(pin "SHUNT+" input
+			(at 119.38 88.9 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "2fb664c4-e02c-4103-aa7b-2f5f7bc2ed0f")
+		)
+		(pin "PHASE" output
+			(at 182.88 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "49abdfeb-4081-4d15-969e-697eabd8174b")
+		)
+		(pin "SHUNT-" input
+			(at 119.38 91.44 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "937648ef-cc22-4a90-9fff-05bd1dbb2286")
+		)
+		(pin "NTC_BOT" input
+			(at 119.38 105.41 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "b1c863b2-1ddc-4457-9068-031c9f586f09")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 30.48)
+		(size 63.5 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1776d2a-ee67-431b-986b-a5ac4fed0211")
+		(property "Sheetname" "Half Bridge A"
+			(at 119.38 29.6414 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SiC_powerstage.kicad_sch"
+			(at 119.38 69.2662 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S_BOT" input
+			(at 119.38 55.88 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "1273c17e-4a35-4b3e-b95e-1cc9fd94c52c")
+		)
+		(pin "GND" input
+			(at 119.38 66.04 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "461c90eb-8b85-41b9-886c-0425784b5ed6")
+		)
+		(pin "D_BOT" input
+			(at 119.38 50.8 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "f868e024-745b-48f9-bbab-4de9c00f6cf7")
+		)
+		(pin "S_TOP" input
+			(at 119.38 40.64 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "339d24d2-d399-41ef-a357-234083ef247f")
+		)
+		(pin "G_BOT" input
+			(at 119.38 53.34 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "a2c83594-aa5d-447d-960d-c786dbcf49cc")
+		)
+		(pin "D_TOP" input
+			(at 119.38 35.56 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "14555638-3360-4ed1-bdf9-8df1ca5dc983")
+		)
+		(pin "G_TOP" input
+			(at 119.38 38.1 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "b12dd807-c248-4d03-aeb8-65f0b0b634cb")
+		)
+		(pin "VBUS" input
+			(at 119.38 31.75 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "043ab580-dbe3-4e20-9dad-efd0cc1bfb69")
+		)
+		(pin "SHUNT+" input
+			(at 119.38 43.18 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "98cf9520-0e70-4310-b0d0-d5ae1b9cdc45")
+		)
+		(pin "PHASE" output
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "fbfff75a-8590-445c-9973-a675c67ba30d")
+		)
+		(pin "SHUNT-" input
+			(at 119.38 45.72 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "e65adf4e-9274-43c6-a2fd-20842003a005")
+		)
+		(pin "NTC_BOT" input
+			(at 119.38 59.69 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "85cc6656-2045-46ba-805c-42102572bff7")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 121.92)
+		(size 63.5 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd309452-2f5d-4682-a03a-ad449029d252")
+		(property "Sheetname" "Half Bridge C"
+			(at 119.38 121.0814 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SiC_powerstage.kicad_sch"
+			(at 119.38 160.7062 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S_BOT" input
+			(at 119.38 147.32 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "af6fb070-e07a-4073-b3e4-7cf8382566cb")
+		)
+		(pin "GND" input
+			(at 119.38 157.48 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "74952f3e-a93d-453a-9b34-7d6994bfc2c0")
+		)
+		(pin "D_BOT" input
+			(at 119.38 142.24 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "80cb5d99-21e1-4906-9e8d-9922bd7090d4")
+		)
+		(pin "S_TOP" input
+			(at 119.38 132.08 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "e372d369-92fb-41d2-9526-b0d1999bda60")
+		)
+		(pin "G_BOT" input
+			(at 119.38 144.78 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "3e9958f0-4e85-42fb-85b4-d7d4a22d9e72")
+		)
+		(pin "D_TOP" input
+			(at 119.38 127 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "f889e524-dcae-46d2-ab12-06514f25bd30")
+		)
+		(pin "G_TOP" input
+			(at 119.38 129.54 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "785b2365-b96c-4508-9116-8c754bba3103")
+		)
+		(pin "VBUS" input
+			(at 119.38 123.19 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "cfdc395e-1730-4cd7-ae6e-8f7c0330255c")
+		)
+		(pin "SHUNT+" input
+			(at 119.38 134.62 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "d1abc79b-d41b-46f2-85a2-0b2950526fc7")
+		)
+		(pin "PHASE" output
+			(at 182.88 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+			(uuid "4999fb8d-e326-47fc-9ec6-e156e9c645fc")
+		)
+		(pin "SHUNT-" input
+			(at 119.38 137.16 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "fd273ace-7168-4239-a72d-8f893956bdaa")
+		)
+		(pin "NTC_BOT" input
+			(at 119.38 151.13 180)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+			(uuid "63dd87aa-44a3-42e2-887d-e7629e77f799")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

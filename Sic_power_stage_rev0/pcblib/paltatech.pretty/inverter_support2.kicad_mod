@@ -1,0 +1,29 @@
+(module inverter_support2 (layer F.Cu) (tedit 585EDC19)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value inverter_support2 (at 0 -0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -75 -10) (end 75 -10) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 75 -10) (end 75 10) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 75 10) (end -75 10) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -75 10) (end -75 -10) (layer Dwgs.User) (width 0.15))
+  (pad "" np_thru_hole circle (at -70 -5) (size 4.2 4.2) (drill 4.1) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 70 -5) (size 4.2 4.2) (drill 4.1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3Dlib/support2.step
+    (at (xyz 0 0 -0.03937007874015748))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/3Dlib/M4_screw.step
+    (at (xyz -2.755905511811024 0.1968503937007874 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KIPRJMOD}/3Dlib/M4_screw.step
+    (at (xyz 2.755905511811024 0.1968503937007874 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

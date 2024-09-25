@@ -1,0 +1,28 @@
+(version 0.1)
+
+(rule "Phase_A_mutual_clearance"
+    (condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
+	(layer outer)
+    (constraint clearance (min 0.6mm)))
+
+(rule "Phase_A_self_clearance"
+    (condition "A.NetClass == 'class_phase_a_node' && B.NetClass == A.NetClass")
+    (constraint clearance (min 0.35mm)))
+
+
+(rule "Phase_B_mutual_clearance"
+    (condition "A.NetClass == 'class_phase_b_node' && B.NetClass != A.NetClass")
+    (constraint clearance (min 0.6mm)))
+
+(rule "Phase_B_self_clearance"
+    (condition "A.NetClass == 'class_phase_b_node' && B.NetClass == A.NetClass")
+    (constraint clearance (min 0.35mm)))
+
+
+(rule "Phase_C_mutual_clearance"
+    (condition "A.NetClass == 'class_phase_c_node' && B.NetClass != A.NetClass")
+    (constraint clearance (min 0.6mm)))
+
+(rule "Phase_C_self_clearance"
+    (condition "A.NetClass == 'class_phase_c_node' && B.NetClass == A.NetClass")
+    (constraint clearance (min 0.35mm)))
