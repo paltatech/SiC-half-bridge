@@ -4652,6 +4652,17 @@
 		)
 		(uuid "f2ceb56e-3991-46c2-ae81-85609e79520d")
 	)
+	(label "source_bot"
+		(at 86.36 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2472f548-ee51-4e8f-a48a-56bf354b0ce2")
+	)
 	(label "GT3"
 		(at 102.87 76.2 0)
 		(fields_autoplaced yes)

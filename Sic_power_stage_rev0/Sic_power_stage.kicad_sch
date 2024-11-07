@@ -7819,6 +7819,44 @@
 		)
 	)
 	(sheet
+		(at 119.38 170.815)
+		(size 50.8 22.225)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d1bf39f-06d9-4baa-ac26-c6352d3cee78")
+		(property "Sheetname" "Discharge_circuit"
+			(at 119.38 170.1034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "discharge_circuit.kicad_sch"
+			(at 119.38 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 30.48)
 		(size 63.5 38.1)
 		(fields_autoplaced yes)

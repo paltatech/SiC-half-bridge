@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.6
+          "min_clearance": 2.5
         }
       },
       "diff_pair_dimensions": [
@@ -498,7 +498,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "class_phase_a_node",
+        "name": "PWRGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -515,6 +515,40 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "class_G_bot",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "class_phase_a_node",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "class_phase_b_node",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -525,7 +559,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.35,
+        "clearance": 0.6,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
@@ -593,7 +627,7 @@
         "pattern": "/Half Bridge A/D_BOT"
       },
       {
-        "netclass": "class_phase_b_node",
+        "netclass": "Default",
         "pattern": "/Half Bridge B/G_TOP"
       },
       {
@@ -609,7 +643,7 @@
         "pattern": "/Half Bridge B/GT3"
       },
       {
-        "netclass": "class_phase_b_node",
+        "netclass": "Default",
         "pattern": "/Half Bridge B/S_TOP"
       },
       {
@@ -687,6 +721,18 @@
       {
         "netclass": "low_VBUS",
         "pattern": "VBUS_low"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "PWRGND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge B/G_BOT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge B/S_BOT"
       }
     ]
   },
@@ -873,6 +919,10 @@
     [
       "cd309452-2f5d-4682-a03a-ad449029d252",
       "Half Bridge C"
+    ],
+    [
+      "2d1bf39f-06d9-4baa-ac26-c6352d3cee78",
+      "Discharge_circuit"
     ]
   ],
   "text_variables": {}

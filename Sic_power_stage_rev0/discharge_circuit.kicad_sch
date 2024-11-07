@@ -1,0 +1,3650 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2b36d4fc-cd07-406e-a349-805a34e9bac2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "_semi:LED"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DS"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 6.35 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "LED color wavelength voltage current [footprint]"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.016) (xy 1.27 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy -1.016 1.27) (xy 1.016 1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -0.254) (xy 3.048 -0.762) (xy 2.54 -1.016) (xy 2.794 -0.254) (xy 3.048 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 3.048 0.508) (xy 2.54 0.254) (xy 2.794 1.016) (xy 3.048 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pasv-cap:C-0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C-0603"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IPC7351-Nominal:CAPC1608X55"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.254 -0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Chip capacitor, EIA 0603, metric 1608"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOM" "CAP MLCC 100pF C0G 50V 5% [0603]"
+				(at 20.32 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAPC1608X55"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C-0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.635) (xy 2.032 -0.635)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.635) (xy 2.032 0.635)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C-0603_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pasv-res:R-0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-0603"
+				(at 6.35 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IPC7351-Nominal:RESC1608X50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Chip resistor, EIA 0603, metric 1608"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOM" "RES SMD 1k 5% [0603]"
+				(at 19.05 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RESC1608X50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-0603_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-0603_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pasv-res:R-1206"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-1206"
+				(at 6.35 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Chip resistor, EIA 1206, metric 3216"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOM" "RES SMD 1k 5% [1206]"
+				(at 19.05 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RESC3216X60"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R-1206_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 1.905)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-1206_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "semi-trans-Infineon:IPN70R1K5CEATMA1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IPN70R1K5CEATMA1"
+				(at 12.7 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "smd-semi:SOT-223-3"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlml2060pbf.pdf"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NMOS 700V 5.4A 2.5Vth [SOT-23]"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "BOM" "NMOS 700v  IPN70R1K5CEATMA1"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IPN70R1K5CEATMA1_0_1"
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 1.27 0) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 0.508) (xy 0.762 0) (xy 1.016 -0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 -1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IPN70R1K5CEATMA1_1_1"
+				(pin passive line
+					(at -1.27 -1.27 0)
+					(length 0.762)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 2.54 270)
+					(length 1.016)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 90)
+					(length 1.016)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 147.32 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "004891de-7234-4991-bd8f-1b64324798cc")
+	)
+	(junction
+		(at 147.32 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2155e1ac-0618-40be-9ccc-05426a5d1002")
+	)
+	(junction
+		(at 129.54 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e8187a-c8fb-4280-93fa-8f0611f4c274")
+	)
+	(junction
+		(at 138.43 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4759a3c2-705b-429f-ba68-d7f57d736e30")
+	)
+	(junction
+		(at 129.54 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "580b33a5-fadb-43d0-8770-e240ee0814b2")
+	)
+	(junction
+		(at 138.43 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b2b255-502d-40bc-b60a-191a4ab3de29")
+	)
+	(junction
+		(at 138.43 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa4606d-67f2-4265-ba74-3b671946ca53")
+	)
+	(junction
+		(at 129.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e82d06b-bbfc-4a63-889e-2b72b462db86")
+	)
+	(junction
+		(at 138.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "917dd0a8-5fc3-48e9-8955-4561dbf29ada")
+	)
+	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96aa3b44-2f5d-4e95-b347-8efb0ae1769d")
+	)
+	(junction
+		(at 90.17 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9911e71c-4f07-4318-8d7c-652a2d790ce7")
+	)
+	(junction
+		(at 138.43 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11c84ca-0a61-46ed-ac7e-a017a8f6f334")
+	)
+	(junction
+		(at 138.43 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acbf2148-f36b-431e-9ac7-d28b7d46b447")
+	)
+	(junction
+		(at 129.54 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e52b83-052d-4bd5-8775-a84a7e69c4a6")
+	)
+	(junction
+		(at 138.43 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd2d1e57-c654-435d-9d37-733b6c8ef4d7")
+	)
+	(junction
+		(at 129.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d60f66fe-9e78-4195-9f2a-303a675d3429")
+	)
+	(junction
+		(at 147.32 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dae1d1a9-a7cc-4f07-87ca-2f0540781cfc")
+	)
+	(junction
+		(at 129.54 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e635be35-6576-48f7-ac83-73538e04892f")
+	)
+	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e64f02ed-56e1-4ce3-9d74-5917d2fd4f3d")
+	)
+	(junction
+		(at 147.32 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f814b903-3d60-4d95-a296-f0a67162ae11")
+	)
+	(junction
+		(at 138.43 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbcfa9dc-7202-4397-a480-cea20a74c35e")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e32e7e-f850-4529-a33d-4bcc01acfde7")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075ceda7-9b77-424a-b7c3-9c04aaa94013")
+	)
+	(wire
+		(pts
+			(xy 138.43 46.99) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084b2014-fdf6-4fa8-ad35-c4f307e9a232")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abcc7e3-7202-4e78-b96d-8a375a23e2e7")
+	)
+	(wire
+		(pts
+			(xy 147.32 54.61) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e27efe6-7e3c-4e03-94b4-19c12c6e5b5b")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116e8ef3-2447-4e6f-b882-d09a1e41bcb4")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c8cb5d-cd2c-494a-9070-d3903463929c")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ecb6de-6a83-4c1b-88d6-5409fec12960")
+	)
+	(wire
+		(pts
+			(xy 90.17 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fac089-aff9-4666-a5a3-08ead626db65")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 147.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b780f51-0542-4d58-8e7b-14ece3191727")
+	)
+	(wire
+		(pts
+			(xy 147.32 25.4) (xy 147.32 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c878f51-0499-460b-b34f-c828b8f3a63d")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d96bf84-6ee1-49a7-93f4-741928c45e40")
+	)
+	(wire
+		(pts
+			(xy 129.54 40.64) (xy 138.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffe0c6c-3ccf-4fb3-9bb7-685ed6db4033")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ca945d-0120-4764-b285-73a8b9366721")
+	)
+	(wire
+		(pts
+			(xy 147.32 63.5) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d76563-c446-467a-8ed0-44132cc5d995")
+	)
+	(wire
+		(pts
+			(xy 129.54 39.37) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c75c33a-a44e-48a8-8f66-36a30bc633ed")
+	)
+	(wire
+		(pts
+			(xy 100.33 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d3ccfb-581a-4cad-a24d-d6d14954dcdc")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3add999f-166e-4880-b3fb-1f61e2be41a0")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0ff744-d9e8-4a22-a6dc-935dbda0333f")
+	)
+	(wire
+		(pts
+			(xy 147.32 46.99) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc622f6-e824-423c-91a1-5359d6459056")
+	)
+	(wire
+		(pts
+			(xy 138.43 40.64) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4aa3ba-6d46-4ca7-a08b-48496f2196a4")
+	)
+	(wire
+		(pts
+			(xy 138.43 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed46bab-bf0c-480f-8519-e75adb925daa")
+	)
+	(wire
+		(pts
+			(xy 138.43 55.88) (xy 138.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef2417a-ea7a-4f90-b0a0-15395afd8cc2")
+	)
+	(wire
+		(pts
+			(xy 129.54 25.4) (xy 138.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5d011a-04de-4b73-99dc-ac6949eaf172")
+	)
+	(wire
+		(pts
+			(xy 138.43 80.01) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506ac0a8-4dee-4e15-bad0-2c0cfb603278")
+	)
+	(wire
+		(pts
+			(xy 129.54 26.67) (xy 129.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5224faa5-81c3-4294-8dd6-6e45c8021623")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8b7256-7380-488a-ab72-b32fe95eae04")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 129.54 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0dab45-127c-4518-976c-b240f50e33f7")
+	)
+	(wire
+		(pts
+			(xy 86.36 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "638c3433-d5f7-49a0-8b33-2fdb1a9c22ea")
+	)
+	(wire
+		(pts
+			(xy 138.43 48.26) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660b8609-d763-4f79-8a51-0f2992fad7c1")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664c27d4-6891-4b3b-98b4-2a108bbb9e46")
+	)
+	(wire
+		(pts
+			(xy 129.54 40.64) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5210d8-dfed-4a5b-b188-5522eaacc256")
+	)
+	(wire
+		(pts
+			(xy 129.54 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca7185a-4b93-433d-858d-70e5dabeefb0")
+	)
+	(wire
+		(pts
+			(xy 116.84 19.05) (xy 138.43 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6410f4-e4f9-4388-8ca4-2b80379d3c13")
+	)
+	(wire
+		(pts
+			(xy 147.32 31.75) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bcc0de-ee54-45fc-bbd5-430630a53d16")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cbb8d2-cff8-4ed0-994f-83491d295d67")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a45d9f-fa3a-47b4-9c00-f08e295e1d3a")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d40ea5c-7271-4fe2-996d-63293c0971c6")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 129.54 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90361f00-6538-47b3-bc43-90ec8e073280")
+	)
+	(wire
+		(pts
+			(xy 129.54 46.99) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904f2492-b764-4a00-b0fe-ec0c0239ce67")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91239391-5c4f-4831-8247-b1140c15fcf9")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ef87ea-20cd-4170-8712-890115cf4cc9")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdfae46-afa0-4574-b404-b10bc83043eb")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cefda1e-ac8b-4b12-8a63-2257ccf202dd")
+	)
+	(wire
+		(pts
+			(xy 138.43 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbfdf21-3187-4333-80fb-03b7db110060")
+	)
+	(wire
+		(pts
+			(xy 138.43 25.4) (xy 138.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3370c5-9d52-4d33-9a69-815af57dca84")
+	)
+	(wire
+		(pts
+			(xy 138.43 33.02) (xy 138.43 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b209ea7d-2773-424c-a285-63dcfafd2ff9")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26f265b-3ad1-4c59-bc7b-705cb1839da9")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ab4712-f757-47de-a74e-b7b1f262a240")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7321072-6e16-4ce4-800d-501998b1d956")
+	)
+	(wire
+		(pts
+			(xy 138.43 48.26) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e1874c-6d92-467f-89d6-8e8f78ac37d2")
+	)
+	(wire
+		(pts
+			(xy 147.32 69.85) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31799fb-746b-4d0e-aecc-d428235f9fd9")
+	)
+	(wire
+		(pts
+			(xy 147.32 39.37) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3fece64-5500-4ae5-a820-973527e6175e")
+	)
+	(wire
+		(pts
+			(xy 129.54 62.23) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5022144-c0d3-42f0-b4b8-5523e192487b")
+	)
+	(wire
+		(pts
+			(xy 129.54 33.02) (xy 129.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fbc427-35da-4bf6-b2ce-b58224b4e65a")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80c86bf-31a3-43e5-95b5-b0b269ad9209")
+	)
+	(wire
+		(pts
+			(xy 138.43 39.37) (xy 138.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d500bf34-b7e1-4eb2-8ddc-71564aac0608")
+	)
+	(wire
+		(pts
+			(xy 129.54 63.5) (xy 129.54 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90cd516-e3d7-4017-ace2-03336fd92ce8")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 138.43 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0583821-c81d-4d16-9336-157ae101c89e")
+	)
+	(wire
+		(pts
+			(xy 138.43 19.05) (xy 138.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0a066a7-4531-409b-9f10-3f89789fa9db")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 147.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ac4f49-f82c-40c6-a380-83345533e01f")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f33fab-9709-4db6-9a36-99f7e9d2b8a6")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9270194-1701-4e4f-965c-c3ac7783ab4a")
+	)
+	(wire
+		(pts
+			(xy 129.54 31.75) (xy 129.54 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4d876b-2024-433d-89b2-07f08cea07f9")
+	)
+	(wire
+		(pts
+			(xy 138.43 72.39) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8a8ec9-d528-4278-887c-10582f83b5c4")
+	)
+	(wire
+		(pts
+			(xy 138.43 40.64) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea908ff8-9993-4d23-89b2-4d36728afc9a")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea8e6da-03b3-4ab5-90cd-ba6d40cc5cdb")
+	)
+	(wire
+		(pts
+			(xy 118.11 80.01) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2919726-fe17-42d5-aa4e-974d908811f7")
+	)
+	(wire
+		(pts
+			(xy 147.32 48.26) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb3f877-e546-4ce2-ac24-49d63bec8a06")
+	)
+	(hierarchical_label "VDCLink"
+		(shape input)
+		(at 116.84 19.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abe111d2-5e12-43e9-8beb-07f1b9e6d23b")
+	)
+	(symbol
+		(lib_id "pasv-res:R-0603")
+		(at 109.22 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025e17c3-5ffd-4de2-b72c-f840af36f855")
+		(property "Reference" "R70"
+			(at 109.2517 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-0603"
+			(at 109.2517 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC1608X50"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 95.25 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 0603, metric 1608"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [0603]"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90af8f82-e596-4e0f-8f15-34b310b97933")
+		)
+		(pin "2"
+			(uuid "f3f7b51e-c0d2-45d7-a70b-c5d4bf63aab4")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08cdbc18-2f39-4d35-8f6d-63bd10ea7c19")
+		(property "Reference" "R57"
+			(at 140.97 43.2116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 45.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3764bf91-ceea-4661-b447-86555cbc460d")
+		)
+		(pin "2"
+			(uuid "485ceb43-eaec-4812-810f-1c4a4920fe7c")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-cap:C-0603")
+		(at 129.54 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10a96204-ec36-4dc6-b905-5c892b347ed2")
+		(property "Reference" "C28"
+			(at 133.35 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C-0603"
+			(at 133.35 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:CAPC1608X55"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.286 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip capacitor, EIA 0603, metric 1608"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "CAP MLCC 100pF C0G 50V 5% [0603]"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40747c85-5905-4f16-8fcc-1e3f49b280f2")
+		)
+		(pin "1"
+			(uuid "cefb3e08-afbd-424c-bd4e-69ef01a8ea27")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "197592d6-0c42-40ac-87fd-bf61cdcf2387")
+		(property "Reference" "R48"
+			(at 132.08 43.2116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 45.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49fb66ea-f9f0-410a-ba05-cea9bb571dec")
+		)
+		(pin "2"
+			(uuid "28a1f3b0-0fe8-4082-b980-ca86458bb9d4")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28699ffc-8a47-401e-b3e4-827e1737ce69")
+		(property "Reference" "R54"
+			(at 132.08 66.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 68.6116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74bf3676-d6d1-4a47-8f41-eb69d84f850e")
+		)
+		(pin "2"
+			(uuid "6b48bae9-a22c-4a8d-ad77-6e00549e0be9")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28789e8a-33e3-4fe9-baca-be356174fafc")
+		(property "Reference" "R63"
+			(at 149.86 43.2116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 45.7516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 43.18 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d00c566-dbc4-41e1-8b72-67efb77cc623")
+		)
+		(pin "2"
+			(uuid "79aa0b37-7d3a-49e9-8a30-c5eeeb9b278b")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_semi:LED")
+		(at 138.43 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2aaa7243-9ec5-49e0-b992-c719f73cef12")
+		(property "Reference" "DS1"
+			(at 142.24 83.7564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 142.24 86.2964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "LED color wavelength voltage current [footprint]"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cdc4170-4340-49de-accb-f0534f9339c9")
+		)
+		(pin "1"
+			(uuid "8a797e06-42a2-48bc-8c4e-dd8fb6449466")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f9aa60-d6ca-48f8-8353-3b148cefc498")
+		(property "Reference" "R65"
+			(at 149.86 58.4516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 60.9916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e86515-a598-4d3a-905d-de3401787bf0")
+		)
+		(pin "2"
+			(uuid "4a05e3ca-23f2-4a45-80b8-93fc88ffb702")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a9f72b0-2b62-440f-a544-836a658308c7")
+		(property "Reference" "R52"
+			(at 132.08 50.8316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 53.3716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b153391b-06e1-4296-aebe-adee614a8081")
+		)
+		(pin "2"
+			(uuid "709df4e6-981b-4927-8117-a93580821247")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bf0bf78-1635-48eb-8d67-0f567749f9e3")
+		(property "Reference" "R60"
+			(at 140.97 66.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 68.6116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072d1de9-46c0-440a-babf-97ba12601716")
+		)
+		(pin "2"
+			(uuid "b5bf2901-bae2-4a93-9d12-b760ed5612c7")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 115.57 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4deb8a45-d909-46f4-8744-6fa9b954250d")
+		(property "Reference" "R69"
+			(at 115.6017 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 116.8716 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 115.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "077bb382-b796-4288-8023-59b56037df80")
+		)
+		(pin "2"
+			(uuid "0e243650-2262-4e35-be51-7be2280c3337")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 97.79 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "537f9a2a-6570-4552-8daf-c9ba197ac666")
+		(property "Reference" "R67"
+			(at 97.8217 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 99.0916 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 97.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53866884-5ea5-4433-8792-42bb37d25fac")
+		)
+		(pin "2"
+			(uuid "1c914b51-487a-433e-a38e-d27ac5737abe")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89fb9b6e-8f35-4ebf-b6e1-35bd7a6d1b06")
+		(property "Reference" "R58"
+			(at 140.97 50.8316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 53.3716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b62bc567-de1e-4252-a71d-f85680c86484")
+		)
+		(pin "2"
+			(uuid "dd57f504-79b6-4fa2-9a95-68462bc8e21b")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "semi-trans-Infineon:IPN70R1K5CEATMA1")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a0a1e43-c4d1-4900-8c77-1581f40947b6")
+		(property "Reference" "Q19"
+			(at 139.7 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPN70R1K5CEATMA1"
+			(at 139.7 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "smd-semi:SOT-223-3"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlml2060pbf.pdf"
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NMOS 700V 5.4A 2.5Vth [SOT-23]"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "NMOS 700v  IPN70R1K5CEATMA1"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2352caaa-975b-4fa8-b2c5-b2b7811e586f")
+		)
+		(pin "1"
+			(uuid "00c52320-8092-47c9-b69c-5c4ed91493aa")
+		)
+		(pin "2"
+			(uuid "5c15195b-da91-40d7-802b-217bd3a316ed")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1e422e-0b13-40b8-add2-419cc650d7eb")
+		(property "Reference" "R59"
+			(at 140.97 58.4516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 60.9916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e09be79a-1bce-45cc-abfe-dde1dad74966")
+		)
+		(pin "2"
+			(uuid "5ef4afc9-8ab9-4ecd-928c-2d9da35164e6")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a60c74a2-0c46-4211-804b-6973f9987658")
+		(property "Reference" "R66"
+			(at 149.86 66.0716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 68.6116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15358b9e-8231-421e-a92b-7ed8165f7748")
+		)
+		(pin "2"
+			(uuid "434f692a-a983-425d-a865-6ff0579e0254")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a634fc53-0155-40e6-999f-d89c93574ba5")
+		(property "Reference" "R47"
+			(at 132.08 35.5916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 38.1316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a749e669-146a-470f-a6c7-6e1e8ccd9432")
+		)
+		(pin "2"
+			(uuid "c0dd655b-8255-4402-bc95-d0ea346f3d85")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a73b4734-22bf-4632-b12f-d9ae090a326f")
+		(property "Reference" "R55"
+			(at 140.97 27.9716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 30.5116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cfffd27-a7b5-4a12-ba01-140b76651874")
+		)
+		(pin "2"
+			(uuid "36188362-a6fe-4920-9ae5-6d61eab279bd")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2945b95-5d75-48d8-bcb8-b376ab674af0")
+		(property "Reference" "R46"
+			(at 123.952 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 30.5116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99152b01-5162-40d6-adc1-426bad7788e0")
+		)
+		(pin "2"
+			(uuid "cf8738d0-ca66-438b-971c-08eaa4893c40")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b64ecb7d-f8d3-4a1b-99fc-4b3c3b102e24")
+		(property "Reference" "R62"
+			(at 149.86 35.5916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 38.1316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a6ed5f-82c4-4891-a55f-3c64f106db36")
+		)
+		(pin "2"
+			(uuid "98ba4716-d11e-4e94-85fd-fdcdd8cd1f18")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 106.68 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c298a1ad-b511-4aa4-bc56-6b83bb05d4db")
+		(property "Reference" "R68"
+			(at 106.7117 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 107.9816 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9465da8f-b791-4165-956a-f3b4ae9879e0")
+		)
+		(pin "2"
+			(uuid "43269a16-92ec-4d04-aef9-62bececce8d9")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c757a7a8-331c-477b-b768-be0c72513871")
+		(property "Reference" "R64"
+			(at 149.86 50.8316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 53.3716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c695dd6-8592-441a-8a8b-716a68c63c6f")
+		)
+		(pin "2"
+			(uuid "c1cab88c-108b-44f6-9d2f-002bfd720d17")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 129.54 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "caa30d35-5d54-4c77-9a16-23a989cac0fe")
+		(property "Reference" "R53"
+			(at 132.08 58.4516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 132.08 60.9916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d882fb9e-e5da-411a-8b46-dcadfd46b824")
+		)
+		(pin "2"
+			(uuid "b5992679-895a-4987-9785-f14277fea363")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 147.32 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75cd9fc-b6a1-4e3a-b61a-4f013c4ba55b")
+		(property "Reference" "R61"
+			(at 149.86 27.9716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 149.86 30.5116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 166.37 15.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38c96484-6d39-4144-8910-c90c49535616")
+		)
+		(pin "2"
+			(uuid "daa91c40-3a04-4039-a25a-8a4e8dfd1073")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pasv-res:R-1206")
+		(at 138.43 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e92e2a62-b620-4a33-af6f-ea94a278d2d5")
+		(property "Reference" "R56"
+			(at 140.97 35.5916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-1206"
+			(at 140.97 38.1316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Chip resistor, EIA 1206, metric 3216"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "RES SMD 1k 5% [1206]"
+			(at 157.48 22.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e8d2ff-4e12-4208-bb9e-a7470bbe023e")
+		)
+		(pin "2"
+			(uuid "da57901b-eaff-406f-9c35-36c98fc4b5c9")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/2d1bf39f-06d9-4baa-ac26-c6352d3cee78"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
