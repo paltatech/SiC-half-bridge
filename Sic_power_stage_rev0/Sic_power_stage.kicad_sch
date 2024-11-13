@@ -1270,7 +1270,7 @@
 		(uuid "47925712-2f18-4204-9509-05f8b2bf0c8b")
 	)
 	(no_connect
-		(at 100.33 55.88)
+		(at 99.06 58.42)
 		(uuid "48a68da0-0bd1-497e-8f06-3f7767e12b6e")
 	)
 	(no_connect
@@ -2198,6 +2198,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 55.88) (xy 99.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993d53e4-fef8-4987-bad0-7a240824a9d6")
+	)
+	(wire
+		(pts
 			(xy 110.49 132.08) (xy 119.38 132.08)
 		)
 		(stroke
@@ -2237,6 +2247,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9ebb6427-f059-415d-b916-1d62fe43d6a2")
+	)
+	(wire
+		(pts
+			(xy 100.33 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed96aaf-d25b-49ba-b201-eae43aa515c4")
 	)
 	(wire
 		(pts
@@ -2763,6 +2783,17 @@
 			(justify left bottom)
 		)
 		(uuid "eeee3bff-e8b2-4ab9-9dfd-c536019029c4")
+	)
+	(label "nc"
+		(at 99.06 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0485b831-c403-4e13-99b7-99b31d7018de")
 	)
 	(label "nc_a"
 		(at 98.298 40.64 0)

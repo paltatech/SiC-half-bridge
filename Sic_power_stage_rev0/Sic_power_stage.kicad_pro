@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 5.41,
+          "height": 7.14,
+          "width": 7.14
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 2.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -623,11 +623,11 @@
         "pattern": "/Half Bridge A/S_TOP"
       },
       {
-        "netclass": "class_phase_a_node",
+        "netclass": "PWRGND",
         "pattern": "/Half Bridge A/D_BOT"
       },
       {
-        "netclass": "Default",
+        "netclass": "class_phase_b_node",
         "pattern": "/Half Bridge B/G_TOP"
       },
       {
@@ -643,11 +643,11 @@
         "pattern": "/Half Bridge B/GT3"
       },
       {
-        "netclass": "Default",
+        "netclass": "class_phase_b_node",
         "pattern": "/Half Bridge B/S_TOP"
       },
       {
-        "netclass": "class_phase_b_node",
+        "netclass": "PWRGND",
         "pattern": "/Half Bridge B/D_BOT"
       },
       {
@@ -727,12 +727,56 @@
         "pattern": "PWRGND"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWRGND",
         "pattern": "/Half Bridge B/G_BOT"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWRGND",
         "pattern": "/Half Bridge B/S_BOT"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/S_BOT"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/G_bottom"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/G_BOT"
+      },
+      {
+        "netclass": "class_G_bot",
+        "pattern": "/Half Bridge A/G_bottom_1"
+      },
+      {
+        "netclass": "class_G_bot",
+        "pattern": "/Half Bridge A/G_bottom_2"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/node_a"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/NTC_BOT"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/nc"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/node_a"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/G_bottom_1"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/G_bottom_2"
       }
     ]
   },

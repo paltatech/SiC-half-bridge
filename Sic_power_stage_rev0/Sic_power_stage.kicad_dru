@@ -1,8 +1,8 @@
 (version 0.1)
 
 (rule "Phase_A_mutual_clearance"
-    (condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
 	(layer inner)
+    (condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
     (constraint clearance (min 2.5mm)))
 
 
@@ -34,6 +34,7 @@
 
 
 (rule "PWRGND_self_clearance"
+	(layer outer)
 	(condition "A.NetClass == 'PWRGND' && B.NetClass == A.NetClass")
 	(constraint clearance (min 0.35mm)))
 
@@ -42,6 +43,10 @@
 	#(layer outer)
 	(condition "A.NetClass == 'PWRGND' && B.NetClass != A.NetClass")
 	(constraint clearance (min 2.5mm)))
+
+(rule "G_bot_clearance"
+	(condition "A.NetClass == 'PWRGND' && B.NetClass == 'class_G_bot'")
+	(constraint clearance (min 0.65mm)))
 
 
 # add constrait for node a
