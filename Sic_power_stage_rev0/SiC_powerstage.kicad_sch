@@ -1927,6 +1927,12 @@
 		(uuid "00dd4843-aa56-4299-8e4f-1cdcce24fc28")
 	)
 	(junction
+		(at 255.27 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e8acc7-240d-449c-8301-1c443112d92d")
+	)
+	(junction
 		(at 138.43 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1949,6 +1955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c80d8e7-ab9b-4844-9691-c099eb97a25e")
+	)
+	(junction
+		(at 245.11 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dfd2cd5-be79-4067-90d8-4e8b8c9ebbab")
 	)
 	(junction
 		(at 135.89 68.58)
@@ -2027,6 +2039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44374567-097b-4fa2-89cb-0dbfbd287bb9")
+	)
+	(junction
+		(at 245.11 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b0517a9-f860-433e-8248-73b6990c6fd7")
 	)
 	(junction
 		(at 118.11 114.3)
@@ -2135,6 +2153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99188abd-cc20-4062-8475-38778f1212d1")
+	)
+	(junction
+		(at 255.27 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a14b930-582b-49f7-aca8-f3f98b17b172")
 	)
 	(junction
 		(at 114.3 91.44)
@@ -2430,7 +2454,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.365 44.45) (xy 253.365 66.675)
+			(xy 280.035 44.45) (xy 280.035 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2487,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "232cbc74-e84c-46af-823e-605e4513d6da")
+	)
+	(wire
+		(pts
+			(xy 255.27 62.23) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2427c43d-1174-4068-9c3a-55ec5481f1a1")
 	)
 	(wire
 		(pts
@@ -2570,7 +2604,7 @@
 	)
 	(polyline
 		(pts
-			(xy 253.365 66.675) (xy 217.17 66.675)
+			(xy 280.035 66.04) (xy 217.17 66.675)
 		)
 		(stroke
 			(width 0)
@@ -2597,6 +2631,26 @@
 			(type default)
 		)
 		(uuid "30fb0c3a-dfea-48b3-8396-438c3b1e9710")
+	)
+	(wire
+		(pts
+			(xy 245.11 62.23) (xy 255.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eba0ac-6855-45ac-bcdf-b31d1fda1272")
+	)
+	(wire
+		(pts
+			(xy 255.27 48.26) (xy 255.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329fee57-e8aa-4d1b-a14a-179e334b941a")
 	)
 	(wire
 		(pts
@@ -2687,6 +2741,16 @@
 			(type default)
 		)
 		(uuid "37413033-a6a0-4337-8d67-b2252d123cfe")
+	)
+	(wire
+		(pts
+			(xy 255.27 48.26) (xy 265.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cac42d-9123-4e4e-a34b-80151afed983")
 	)
 	(wire
 		(pts
@@ -2838,6 +2902,16 @@
 		)
 		(uuid "4afb042e-9607-48e6-87f5-27f9ba89d65d")
 	)
+	(polyline
+		(pts
+			(xy 39.37 102.108) (xy 33.655 102.108)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4b1cb29b-1a16-4026-83d4-e1c3c30afbfa")
+	)
 	(wire
 		(pts
 			(xy 115.57 68.58) (xy 115.57 67.31)
@@ -2918,6 +2992,26 @@
 		)
 		(uuid "5528e271-8c64-45d2-ba6d-72ec4b01edc0")
 	)
+	(polyline
+		(pts
+			(xy 33.655 85.725) (xy 39.37 85.725)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "55d5be92-6ed0-467e-a263-318a440b4813")
+	)
+	(wire
+		(pts
+			(xy 265.43 62.23) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f418e6-6155-4a85-aed7-9f267e43a410")
+	)
 	(wire
 		(pts
 			(xy 161.29 48.26) (xy 161.29 52.07)
@@ -2967,6 +3061,16 @@
 			(type default)
 		)
 		(uuid "5e33a46a-90f4-4340-9f7d-b0b07d1fce28")
+	)
+	(wire
+		(pts
+			(xy 265.43 48.26) (xy 265.43 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6013ecbf-b0a4-4d70-835d-54d4caee6460")
 	)
 	(wire
 		(pts
@@ -3130,6 +3234,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 48.26) (xy 255.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7573fc5b-0a14-4674-add1-b83b65e7b92c")
+	)
+	(wire
+		(pts
 			(xy 119.38 68.58) (xy 119.38 67.31)
 		)
 		(stroke
@@ -3190,6 +3304,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 62.23) (xy 265.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849ab1ce-ea51-4c55-ab26-4e74ebf033e4")
+	)
+	(wire
+		(pts
 			(xy 90.17 139.7) (xy 114.3 139.7)
 		)
 		(stroke
@@ -3247,6 +3371,16 @@
 			(type default)
 		)
 		(uuid "8d1df9c2-2a4c-401e-b1f8-a15a6376e3b7")
+	)
+	(polyline
+		(pts
+			(xy 33.655 131.318) (xy 39.37 131.318)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8e09e82b-448d-492f-94cc-3fc0d600e6fc")
 	)
 	(wire
 		(pts
@@ -3390,7 +3524,7 @@
 	)
 	(polyline
 		(pts
-			(xy 217.17 44.45) (xy 253.365 44.45)
+			(xy 217.17 44.45) (xy 280.035 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3587,6 +3721,16 @@
 			(type default)
 		)
 		(uuid "b8304466-11f6-4e14-b545-744a1de32d81")
+	)
+	(polyline
+		(pts
+			(xy 33.655 102.108) (xy 33.655 131.318)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b89e37c8-cb2a-46d9-afcf-9f10daecf60f")
 	)
 	(wire
 		(pts
@@ -3808,6 +3952,16 @@
 		)
 		(uuid "e2b68a12-e4d7-4ea6-8657-e6d08d4c57d6")
 	)
+	(polyline
+		(pts
+			(xy 33.655 56.515) (xy 33.655 85.725)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e3594f9c-2a02-41a4-bedd-c6416d1987cf")
+	)
 	(wire
 		(pts
 			(xy 225.806 100.584) (xy 225.806 91.44)
@@ -3948,6 +4102,16 @@
 		)
 		(uuid "fb71f229-31c3-439e-8829-c79b6aca7010")
 	)
+	(polyline
+		(pts
+			(xy 39.37 56.515) (xy 33.655 56.515)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fd6cce61-ee52-48d3-b4d6-96a5c57c6430")
+	)
 	(wire
 		(pts
 			(xy 67.31 66.04) (xy 67.31 72.39)
@@ -3967,6 +4131,26 @@
 			(type default)
 		)
 		(uuid "ff7393c4-6579-4bc6-aac9-20f414375d6b")
+	)
+	(text "Desaturation point (D_BOT, S_BOT)\n"
+		(exclude_from_sim no)
+		(at 29.21 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "116a5e43-96e1-444b-b95d-bff87aacd35a")
+	)
+	(text "Desaturation point (D_TOP, S_TOP)\n"
+		(exclude_from_sim no)
+		(at 29.21 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "302060ee-313c-484d-adf3-923ff6fbacf0")
 	)
 	(text "3-parallel SiC-MOSFET Half-bridge"
 		(exclude_from_sim no)
@@ -4410,7 +4594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fd0406-2f0b-4f04-a5cf-b40716a9b5bf")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -5335,6 +5519,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 255.27 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e8cd68-d9b1-4871-93c1-a40c50788044")
+		(property "Reference" "C36"
+			(at 259.08 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 259.08 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+			(at 256.2352 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 255.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df433c3b-2010-4d37-a9a3-2deef1ce7e0f")
+		)
+		(pin "2"
+			(uuid "e34d9caa-dfd3-4834-9374-a0f2e9a09f8a")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
+					(reference "C36")
+					(unit 1)
+				)
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
+					(reference "C35")
+					(unit 1)
+				)
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pasv-cap:C-2220")
 		(at 180.34 54.61 0)
 		(unit 1)
@@ -5416,6 +5678,84 @@
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63440195-3e23-491b-ad9c-ee71477aeeb3")
+		(property "Reference" "C39"
+			(at 269.24 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 269.24 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+			(at 266.3952 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0b078f-1d2a-44d1-adb2-f1e6a62bb3ba")
+		)
+		(pin "2"
+			(uuid "1b6066f5-7f02-4942-8432-a29952a5e6e4")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
+					(reference "C39")
+					(unit 1)
+				)
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6011,7 +6351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abfdb375-2106-428e-81b2-3eff843b808e")
-		(property "Reference" "D10"
+		(property "Reference" "D11"
 			(at 69.85 97.79 0)
 			(effects
 				(font

@@ -12,12 +12,13 @@
 
 
 (rule "Phase_B_mutual_clearance"
+	(layer F.Cu)
     (condition "A.NetClass == 'class_phase_b_node' && B.NetClass != A.NetClass")
     (constraint clearance (min 2.5mm)))
 
 
 (rule "Phase_B_self_clearance"
-	(layer inner)
+	#(layer inner)
     (condition "A.NetClass == 'class_phase_b_node' && B.NetClass == A.NetClass")
     (constraint clearance (min 0.35mm)))
 
@@ -40,9 +41,10 @@
 
 
 (rule "PWRGND_mutual_clearance"
-	#(layer outer)
+	(layer B.Cu)
 	(condition "A.NetClass == 'PWRGND' && B.NetClass != A.NetClass")
 	(constraint clearance (min 2.5mm)))
+
 
 (rule "G_bot_clearance"
 	(condition "A.NetClass == 'PWRGND' && B.NetClass == 'class_G_bot'")
