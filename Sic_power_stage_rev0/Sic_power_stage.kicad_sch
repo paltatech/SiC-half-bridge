@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "40c6bde6-dca0-40b2-8abd-1f20772cb34b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "conn-100mil:CONN-100MIL-F-2x3"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 			)
@@ -75,7 +77,7 @@
 			(symbol "CONN-100MIL-F-2x3_0_1"
 				(polyline
 					(pts
-						(xy -4.445 -4.445) (xy -4.445 -5.08)
+						(xy -4.445 1.27) (xy -4.445 1.905) (xy -3.175 1.905)
 					)
 					(stroke
 						(width 0)
@@ -87,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 -1.905) (xy -4.445 -3.175)
+						(xy -4.445 0.635) (xy -4.445 0)
 					)
 					(stroke
 						(width 0)
@@ -111,10 +113,58 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 0.635) (xy -4.445 0)
+						(xy -4.445 -1.905) (xy -4.445 -3.175)
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -4.445) (xy -4.445 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -3.81 0) (xy -3.175 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -3.81 -2.54) (xy -3.175 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -4.445) (xy -3.81 -5.08) (xy -3.175 -5.715)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -147,7 +197,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -4.445) (xy 4.445 -5.08)
+						(xy 3.175 1.905) (xy 4.445 1.905) (xy 4.445 1.27)
 					)
 					(stroke
 						(width 0)
@@ -159,91 +209,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 -1.905) (xy 4.445 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0) (xy 4.445 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0.635) (xy 4.445 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.27) (xy -4.445 1.905) (xy -3.175 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -4.445) (xy -3.81 -5.08) (xy -3.175 -5.715)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -3.81 -2.54) (xy -3.175 -3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -3.81 0) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -4.445) (xy 3.81 -5.08) (xy 3.175 -5.715)
+						(xy 3.175 0.635) (xy 3.81 0) (xy 3.175 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -267,7 +233,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0.635) (xy 3.81 0) (xy 3.175 -0.635)
+						(xy 3.175 -4.445) (xy 3.81 -5.08) (xy 3.175 -5.715)
 					)
 					(stroke
 						(width 0.254)
@@ -279,7 +245,43 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 1.905) (xy 4.445 1.905) (xy 4.445 1.27)
+						(xy 4.445 0.635) (xy 4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 4.445 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -4.445) (xy 4.445 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -293,103 +295,7 @@
 			(symbol "CONN-100MIL-F-2x3_0_2"
 				(polyline
 					(pts
-						(xy -1.905 -9.525) (xy -1.905 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -6.985) (xy -1.905 -8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -4.445) (xy -1.905 -5.715)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -1.905 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -12.7) (xy 1.905 -12.065)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -8.255) (xy 1.905 -6.985)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -3.175) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -9.525) (xy -2.54 -10.16) (xy -3.175 -10.795)
+						(xy -3.175 0.635) (xy -2.54 0) (xy -3.175 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -413,7 +319,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.635) (xy -2.54 0) (xy -3.175 -0.635)
+						(xy -3.175 -9.525) (xy -2.54 -10.16) (xy -3.175 -10.795)
 					)
 					(stroke
 						(width 0.254)
@@ -437,7 +343,79 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -12.065) (xy 1.27 -12.7) (xy 0.635 -13.335)
+						(xy -1.905 0.635) (xy -1.905 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy -1.905 -5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -6.985) (xy -1.905 -8.255)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -9.525) (xy -1.905 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 1.905) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -2.54) (xy 0.635 -3.175)
 					)
 					(stroke
 						(width 0.254)
@@ -461,7 +439,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -1.905) (xy 1.27 -2.54) (xy 0.635 -3.175)
+						(xy 0.635 -12.065) (xy 1.27 -12.7) (xy 0.635 -13.335)
 					)
 					(stroke
 						(width 0.254)
@@ -473,7 +451,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 1.905 1.905) (xy 1.905 1.27)
+						(xy 1.905 -3.175) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -8.255) (xy 1.905 -6.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -12.7) (xy 1.905 -12.065)
 					)
 					(stroke
 						(width 0)
@@ -504,24 +506,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 1.27)
 					(name "3"
@@ -540,24 +524,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 1.27)
 					(name "5"
@@ -568,6 +534,42 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -614,24 +616,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -1.27 -5.08 180)
 					(length 1.27)
 					(name "3"
@@ -642,24 +626,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 180)
-					(length 1.27)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -686,6 +652,42 @@
 					)
 				)
 				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 -12.7 180)
 					(length 1.27)
 					(name "6"
@@ -704,6 +706,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "paltatech:MOUNTING_HOLE"
 			(pin_names
@@ -786,9 +789,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pasv-res:R-1206"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -877,7 +883,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.778) (xy 0 -2.032)
+						(xy 0 1.778) (xy 0 1.905)
 					)
 					(stroke
 						(width 0)
@@ -889,7 +895,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 1.905)
+						(xy 0 -1.778) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -938,6 +944,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power1:PWRGND"
 			(power)
@@ -1025,7 +1032,8 @@
 			(symbol "PWRGND_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "PWRGND"
 						(effects
 							(font
@@ -1042,6 +1050,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power1:VBUS"
 			(power)
@@ -1104,14 +1113,14 @@
 			(symbol "VBUS_0_1"
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy -1.27 1.524) (xy 1.27 1.524) (xy 1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.524)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -1128,21 +1137,22 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.524) (xy 1.27 1.524) (xy 1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.524)
+						(xy 0 0.762) (xy 0 0)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -1159,7 +1169,92 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "High current M6 terminals"
+		(exclude_from_sim no)
+		(at 18.415 91.44 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "09f787a1-ba0d-4c14-9fa2-d7450a744d36")
+	)
+	(text "Mounting holes for M3 standoffs"
+		(exclude_from_sim no)
+		(at 18.415 20.32 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dcf715b-7c44-433c-8c35-f5271688717f")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 250.19 93.345 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c61163-cca9-41e1-b367-bc573dc1b42d")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 248.92 48.26 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1b9b19-32ad-48fe-ab3f-951673c8dc54")
+	)
+	(text "Phase C"
+		(exclude_from_sim no)
+		(at 250.19 139.065 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1ea16aa-4644-4d5f-81e6-21a7c4ac636e")
+	)
+	(text "SiC MOSFET Powerstage"
+		(exclude_from_sim no)
+		(at 162.814 22.86 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeee3bff-e8b2-4ab9-9dfd-c536019029c4")
 	)
 	(junction
 		(at 105.41 31.75)
@@ -2700,93 +2795,8 @@
 		)
 		(uuid "fc3fcf88-bbd3-49ab-aa41-f35fe9c8f369")
 	)
-	(text "High current M6 terminals"
-		(exclude_from_sim no)
-		(at 18.415 91.44 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "09f787a1-ba0d-4c14-9fa2-d7450a744d36")
-	)
-	(text "Mounting holes for M3 standoffs"
-		(exclude_from_sim no)
-		(at 18.415 20.32 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.3048)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2dcf715b-7c44-433c-8c35-f5271688717f")
-	)
-	(text "Phase B"
-		(exclude_from_sim no)
-		(at 250.19 93.345 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "92c61163-cca9-41e1-b367-bc573dc1b42d")
-	)
-	(text "Phase A"
-		(exclude_from_sim no)
-		(at 248.92 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac1b9b19-32ad-48fe-ab3f-951673c8dc54")
-	)
-	(text "Phase C"
-		(exclude_from_sim no)
-		(at 250.19 139.065 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1ea16aa-4644-4d5f-81e6-21a7c4ac636e")
-	)
-	(text "SiC MOSFET Powerstage"
-		(exclude_from_sim no)
-		(at 162.814 22.86 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-				(thickness 1.27)
-				(bold yes)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "eeee3bff-e8b2-4ab9-9dfd-c536019029c4")
-	)
 	(label "nc"
 		(at 99.06 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2797,7 +2807,6 @@
 	)
 	(label "nc_a"
 		(at 98.298 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -2808,7 +2817,6 @@
 	)
 	(label "nc_a"
 		(at 98.298 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -2819,7 +2827,6 @@
 	)
 	(label "nc_a"
 		(at 98.298 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -7694,6 +7701,10 @@
 	(sheet
 		(at 119.38 76.2)
 		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -7723,123 +7734,123 @@
 		)
 		(pin "S_BOT" input
 			(at 119.38 101.6 180)
+			(uuid "01ead457-c346-46ec-bfce-95d45bcc7b2a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "01ead457-c346-46ec-bfce-95d45bcc7b2a")
 		)
 		(pin "GND" input
 			(at 119.38 111.76 180)
+			(uuid "4818dfea-0106-4fda-b5bf-8ca0cd6ce405")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "4818dfea-0106-4fda-b5bf-8ca0cd6ce405")
 		)
 		(pin "D_BOT" input
 			(at 119.38 96.52 180)
+			(uuid "49116dd9-3b6f-476f-9cbf-8877847566d0")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "49116dd9-3b6f-476f-9cbf-8877847566d0")
 		)
 		(pin "S_TOP" input
 			(at 119.38 86.36 180)
+			(uuid "2d2e7708-00e0-4d96-bba6-1a1f7bff104a")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "2d2e7708-00e0-4d96-bba6-1a1f7bff104a")
 		)
 		(pin "G_BOT" input
 			(at 119.38 99.06 180)
+			(uuid "6bc7a287-2c59-4eb1-9334-0216dbb03deb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "6bc7a287-2c59-4eb1-9334-0216dbb03deb")
 		)
 		(pin "D_TOP" input
 			(at 119.38 81.28 180)
+			(uuid "0f00cf5a-277c-4c6e-a628-01cb256f4ad9")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "0f00cf5a-277c-4c6e-a628-01cb256f4ad9")
 		)
 		(pin "G_TOP" input
 			(at 119.38 83.82 180)
+			(uuid "31a219fd-9dbe-4549-b585-9897af8c4ac7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "31a219fd-9dbe-4549-b585-9897af8c4ac7")
 		)
 		(pin "VBUS" input
 			(at 119.38 77.47 180)
+			(uuid "3a2cfbd9-7831-4700-81bf-edbb6011158b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "3a2cfbd9-7831-4700-81bf-edbb6011158b")
 		)
 		(pin "SHUNT+" input
 			(at 119.38 88.9 180)
+			(uuid "2fb664c4-e02c-4103-aa7b-2f5f7bc2ed0f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "2fb664c4-e02c-4103-aa7b-2f5f7bc2ed0f")
 		)
 		(pin "PHASE" output
 			(at 182.88 91.44 0)
+			(uuid "49abdfeb-4081-4d15-969e-697eabd8174b")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "49abdfeb-4081-4d15-969e-697eabd8174b")
 		)
 		(pin "SHUNT-" input
 			(at 119.38 91.44 180)
+			(uuid "937648ef-cc22-4a90-9fff-05bd1dbb2286")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "937648ef-cc22-4a90-9fff-05bd1dbb2286")
 		)
 		(pin "NTC_BOT" input
 			(at 119.38 105.41 180)
+			(uuid "b1c863b2-1ddc-4457-9068-031c9f586f09")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "b1c863b2-1ddc-4457-9068-031c9f586f09")
 		)
 		(instances
 			(project "Sic_power_stage"
@@ -7852,6 +7863,10 @@
 	(sheet
 		(at 119.38 170.815)
 		(size 50.8 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7890,6 +7905,10 @@
 	(sheet
 		(at 119.38 30.48)
 		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -7919,123 +7938,123 @@
 		)
 		(pin "S_BOT" input
 			(at 119.38 55.88 180)
+			(uuid "1273c17e-4a35-4b3e-b95e-1cc9fd94c52c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "1273c17e-4a35-4b3e-b95e-1cc9fd94c52c")
 		)
 		(pin "GND" input
 			(at 119.38 66.04 180)
+			(uuid "461c90eb-8b85-41b9-886c-0425784b5ed6")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "461c90eb-8b85-41b9-886c-0425784b5ed6")
 		)
 		(pin "D_BOT" input
 			(at 119.38 50.8 180)
+			(uuid "f868e024-745b-48f9-bbab-4de9c00f6cf7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "f868e024-745b-48f9-bbab-4de9c00f6cf7")
 		)
 		(pin "S_TOP" input
 			(at 119.38 40.64 180)
+			(uuid "339d24d2-d399-41ef-a357-234083ef247f")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "339d24d2-d399-41ef-a357-234083ef247f")
 		)
 		(pin "G_BOT" input
 			(at 119.38 53.34 180)
+			(uuid "a2c83594-aa5d-447d-960d-c786dbcf49cc")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "a2c83594-aa5d-447d-960d-c786dbcf49cc")
 		)
 		(pin "D_TOP" input
 			(at 119.38 35.56 180)
+			(uuid "14555638-3360-4ed1-bdf9-8df1ca5dc983")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "14555638-3360-4ed1-bdf9-8df1ca5dc983")
 		)
 		(pin "G_TOP" input
 			(at 119.38 38.1 180)
+			(uuid "b12dd807-c248-4d03-aeb8-65f0b0b634cb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "b12dd807-c248-4d03-aeb8-65f0b0b634cb")
 		)
 		(pin "VBUS" input
 			(at 119.38 31.75 180)
+			(uuid "043ab580-dbe3-4e20-9dad-efd0cc1bfb69")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "043ab580-dbe3-4e20-9dad-efd0cc1bfb69")
 		)
 		(pin "SHUNT+" input
 			(at 119.38 43.18 180)
+			(uuid "98cf9520-0e70-4310-b0d0-d5ae1b9cdc45")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "98cf9520-0e70-4310-b0d0-d5ae1b9cdc45")
 		)
 		(pin "PHASE" output
 			(at 182.88 45.72 0)
+			(uuid "fbfff75a-8590-445c-9973-a675c67ba30d")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "fbfff75a-8590-445c-9973-a675c67ba30d")
 		)
 		(pin "SHUNT-" input
 			(at 119.38 45.72 180)
+			(uuid "e65adf4e-9274-43c6-a2fd-20842003a005")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "e65adf4e-9274-43c6-a2fd-20842003a005")
 		)
 		(pin "NTC_BOT" input
 			(at 119.38 59.69 180)
+			(uuid "85cc6656-2045-46ba-805c-42102572bff7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "85cc6656-2045-46ba-805c-42102572bff7")
 		)
 		(instances
 			(project "Sic_power_stage"
@@ -8048,6 +8067,10 @@
 	(sheet
 		(at 119.38 121.92)
 		(size 63.5 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -8077,123 +8100,123 @@
 		)
 		(pin "S_BOT" input
 			(at 119.38 147.32 180)
+			(uuid "af6fb070-e07a-4073-b3e4-7cf8382566cb")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "af6fb070-e07a-4073-b3e4-7cf8382566cb")
 		)
 		(pin "GND" input
 			(at 119.38 157.48 180)
+			(uuid "74952f3e-a93d-453a-9b34-7d6994bfc2c0")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "74952f3e-a93d-453a-9b34-7d6994bfc2c0")
 		)
 		(pin "D_BOT" input
 			(at 119.38 142.24 180)
+			(uuid "80cb5d99-21e1-4906-9e8d-9922bd7090d4")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "80cb5d99-21e1-4906-9e8d-9922bd7090d4")
 		)
 		(pin "S_TOP" input
 			(at 119.38 132.08 180)
+			(uuid "e372d369-92fb-41d2-9526-b0d1999bda60")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "e372d369-92fb-41d2-9526-b0d1999bda60")
 		)
 		(pin "G_BOT" input
 			(at 119.38 144.78 180)
+			(uuid "3e9958f0-4e85-42fb-85b4-d7d4a22d9e72")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "3e9958f0-4e85-42fb-85b4-d7d4a22d9e72")
 		)
 		(pin "D_TOP" input
 			(at 119.38 127 180)
+			(uuid "f889e524-dcae-46d2-ab12-06514f25bd30")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "f889e524-dcae-46d2-ab12-06514f25bd30")
 		)
 		(pin "G_TOP" input
 			(at 119.38 129.54 180)
+			(uuid "785b2365-b96c-4508-9116-8c754bba3103")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "785b2365-b96c-4508-9116-8c754bba3103")
 		)
 		(pin "VBUS" input
 			(at 119.38 123.19 180)
+			(uuid "cfdc395e-1730-4cd7-ae6e-8f7c0330255c")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "cfdc395e-1730-4cd7-ae6e-8f7c0330255c")
 		)
 		(pin "SHUNT+" input
 			(at 119.38 134.62 180)
+			(uuid "d1abc79b-d41b-46f2-85a2-0b2950526fc7")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "d1abc79b-d41b-46f2-85a2-0b2950526fc7")
 		)
 		(pin "PHASE" output
 			(at 182.88 137.16 0)
+			(uuid "4999fb8d-e326-47fc-9ec6-e156e9c645fc")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify right)
 			)
-			(uuid "4999fb8d-e326-47fc-9ec6-e156e9c645fc")
 		)
 		(pin "SHUNT-" input
 			(at 119.38 137.16 180)
+			(uuid "fd273ace-7168-4239-a72d-8f893956bdaa")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "fd273ace-7168-4239-a72d-8f893956bdaa")
 		)
 		(pin "NTC_BOT" input
 			(at 119.38 151.13 180)
+			(uuid "63dd87aa-44a3-42e2-887d-e7629e77f799")
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "63dd87aa-44a3-42e2-887d-e7629e77f799")
 		)
 		(instances
 			(project "Sic_power_stage"
@@ -8208,4 +8231,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

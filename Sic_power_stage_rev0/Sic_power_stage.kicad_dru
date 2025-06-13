@@ -1,5 +1,10 @@
 (version 0.1)
 
+(rule "HV_400v_clearance"
+	(condition "A.NetClass == 'HV' && B.NetClass != A.NetClass")
+	(constraint clearance (min 2.5mm)))
+
+
 (rule "Phase_A_mutual_clearance"
 	(layer inner)
     (condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
