@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3c87d016-5450-4534-862a-22229329701e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,10 +142,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:US1M"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -241,10 +248,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -253,10 +260,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -302,6 +309,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SiC_ONSEMI:NTB6014N120M3P"
 			(exclude_from_sim no)
@@ -365,31 +373,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.524) (xy -1.27 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.016) (xy -2.54 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.508) (xy -2.54 0.508)
+						(xy -2.54 1.524) (xy -1.27 1.524) (xy -1.27 2.032)
 					)
 					(stroke
 						(width 0)
@@ -413,7 +397,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.524) (xy -1.27 1.524) (xy -1.27 2.032)
+						(xy -2.54 -0.508) (xy -2.54 0.508)
 					)
 					(stroke
 						(width 0)
@@ -425,7 +409,19 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.032) (xy -1.27 0) (xy -2.54 0)
+						(xy -2.54 -1.016) (xy -2.54 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy -1.27 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -447,6 +443,18 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 -2.032) (xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(text ""
 					(at 5.08 -1.27 0)
 					(effects
@@ -457,37 +465,16 @@
 				)
 			)
 			(symbol "NTB6014N120M3P_0_1"
-				(circle
-					(center -1.27 -1.524)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -3.175 -3.81) (xy -1.27 -3.81) (xy -1.27 -1.905)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.27 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -504,6 +491,29 @@
 				)
 				(polyline
 					(pts
+						(xy -1.27 2.032) (xy -1.27 1.524) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 1.524) (xy -1.27 1.524)
 					)
 					(stroke
@@ -514,9 +524,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center -1.27 -1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 -1.905) (xy 0 -1.524)
+						(xy -1.27 -1.524) (xy 3.81 -1.524) (xy 3.81 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -540,126 +561,6 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -1.905) (xy 2.54 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 3.81 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.524) (xy 3.81 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 0.508) (xy 5.588 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.032) (xy 5.08 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.524) (xy 3.81 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.254) (xy 5.08 -1.524)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -3.81) (xy -1.27 -3.81) (xy -1.27 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.524) (xy 3.81 -1.524) (xy 3.81 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.032) (xy -1.27 1.524) (xy -2.54 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 1.524) (xy 5.08 1.524) (xy 5.08 0.508)
 					)
 					(stroke
@@ -670,12 +571,23 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -1.524)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 4.572 -0.254) (xy 5.588 -0.254) (xy 5.08 0.508) (xy 4.572 -0.254)
+						(xy 0 -1.905) (xy 0 -1.524)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -704,6 +616,30 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 -1.905) (xy 2.54 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.524) (xy 3.81 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 3.81 -1.524)
 					(radius 0.254)
@@ -715,6 +651,66 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 3.81 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 0.508) (xy 5.588 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -0.254) (xy 5.588 -0.254) (xy 5.08 0.508) (xy 4.572 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.254) (xy 5.08 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.524) (xy 3.81 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 5.08 -1.524)
 					(radius 0.254)
@@ -724,6 +720,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.032) (xy 5.08 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -757,6 +765,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 2.54 270)
+					(length 0.635)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -854,25 +880,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -1.27 2.54 270)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "VISHAY_SHUNT:WSL3921L5000FEA"
 			(exclude_from_sim no)
@@ -953,24 +962,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -1.778 -2.032 90)
 					(length 1.27)
@@ -1007,10 +998,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "_passive:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1109,11 +1121,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "device:D_TVS_ALT"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1172,18 +1189,6 @@
 			(symbol "D_TVS_ALT_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
 					)
 					(stroke
@@ -1200,6 +1205,18 @@
 					)
 					(stroke
 						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1257,9 +1274,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pasv-cap:C-0603"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1337,18 +1357,6 @@
 			(symbol "C-0603_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.635) (xy 2.032 -0.635)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.032 0.635) (xy 2.032 0.635)
 					)
 					(stroke
@@ -1361,7 +1369,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
+						(xy -2.032 -0.635) (xy 2.032 -0.635)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1385,7 +1405,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.635) (xy 0 1.27)
+						(xy 0 -1.27) (xy 0 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -1434,9 +1454,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pasv-cap:C-2220"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1514,18 +1537,6 @@
 			(symbol "C-2220_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.635) (xy 2.032 -0.635)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.032 0.635) (xy 2.032 0.635)
 					)
 					(stroke
@@ -1538,7 +1549,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
+						(xy -2.032 -0.635) (xy 2.032 -0.635)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1562,7 +1585,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.635) (xy 0 1.27)
+						(xy 0 -1.27) (xy 0 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -1611,9 +1634,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pasv-res:R-0603"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1702,7 +1728,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.778) (xy 0 -2.032)
+						(xy 0 1.778) (xy 0 1.905)
 					)
 					(stroke
 						(width 0)
@@ -1714,7 +1740,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 1.905)
+						(xy 0 -1.778) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -1763,9 +1789,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pasv-res:THERM-0603"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1845,7 +1874,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.778) (xy 0 -2.032)
+						(xy 0 1.778) (xy 0 1.905)
 					)
 					(stroke
 						(width 0)
@@ -1857,7 +1886,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.778) (xy 0 1.905)
+						(xy 0 -1.778) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -1918,7 +1947,82 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Desaturation point (D_BOT, S_BOT)\n"
+		(exclude_from_sim no)
+		(at 29.21 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "116a5e43-96e1-444b-b95d-bff87aacd35a")
+	)
+	(text "Desaturation point (D_TOP, S_TOP)\n"
+		(exclude_from_sim no)
+		(at 29.21 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "302060ee-313c-484d-adf3-923ff6fbacf0")
+	)
+	(text "SiC-MOSFET Half-bridge"
+		(exclude_from_sim no)
+		(at 82.042 29.464 0)
+		(effects
+			(font
+				(size 6.604 6.604)
+				(thickness 1.3208)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a9d4e7-bf4e-4b9b-8ac0-dd1d5a1363ec")
+	)
+	(text "For 5uF rated 500v, rated size: \n1.240\" L x 0.433\" W (31.50mm x 11.00mm)"
+		(exclude_from_sim no)
+		(at 246.126 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52ae555c-cc4f-4650-88d8-7867c1d3b464")
+	)
+	(text "3.3uF film capacitor\n"
+		(exclude_from_sim no)
+		(at 244.856 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "965065b8-a105-4b72-bff4-9d3f95b65c49")
+	)
+	(text "CERALINK- CAPACITORS\n"
+		(exclude_from_sim no)
+		(at 184.912 42.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dec55427-4bdb-4af3-8c6b-eeb4def1e4b8")
+	)
+	(text "0.5mOhm x3\n"
+		(exclude_from_sim no)
+		(at 213.36 78.105 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2ceb56e-3991-46c2-ae81-85609e79520d")
 	)
 	(junction
 		(at 115.57 68.58)
@@ -1927,22 +2031,16 @@
 		(uuid "00dd4843-aa56-4299-8e4f-1cdcce24fc28")
 	)
 	(junction
-		(at 255.27 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01e8acc7-240d-449c-8301-1c443112d92d")
-	)
-	(junction
 		(at 138.43 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03c1ba6b-78f2-4c17-827a-8763be7ba228")
 	)
 	(junction
-		(at 209.55 48.26)
+		(at 193.04 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "075bf1ea-613d-45c3-b360-0c5a0a6bd797")
+		(uuid "03f32c68-8e77-4748-8d3d-c835d1afa605")
 	)
 	(junction
 		(at 170.18 62.23)
@@ -1957,16 +2055,28 @@
 		(uuid "0c80d8e7-ab9b-4844-9691-c099eb97a25e")
 	)
 	(junction
-		(at 245.11 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dfd2cd5-be79-4067-90d8-4e8b8c9ebbab")
-	)
-	(junction
 		(at 135.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1025d246-9397-4f97-a513-96f79d01f996")
+	)
+	(junction
+		(at 228.6 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "119617b9-1f09-41fc-87bd-e3ef222db725")
+	)
+	(junction
+		(at 238.76 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11b96b0c-e4dd-4409-829a-7897bc24202a")
+	)
+	(junction
+		(at 248.92 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1345178d-4765-4d75-ae0b-604d0f8d7a47")
 	)
 	(junction
 		(at 113.03 48.26)
@@ -1991,12 +2101,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a7cfa6-979a-4e6f-88b5-1637ffde9280")
-	)
-	(junction
-		(at 224.79 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24b838ee-2856-491a-8fda-117e59782837")
 	)
 	(junction
 		(at 134.62 91.44)
@@ -2029,6 +2133,18 @@
 		(uuid "32a9ef50-d231-48cd-ab4c-07df5a6549f4")
 	)
 	(junction
+		(at 215.9 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38d2d264-e3d8-487f-9b2b-4b17231a49ba")
+	)
+	(junction
+		(at 248.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3baffb46-0f5b-4cbb-880b-7d4e13b32c3c")
+	)
+	(junction
 		(at 57.15 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,12 +2155,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44374567-097b-4fa2-89cb-0dbfbd287bb9")
-	)
-	(junction
-		(at 245.11 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0517a9-f860-433e-8248-73b6990c6fd7")
 	)
 	(junction
 		(at 118.11 114.3)
@@ -2077,12 +2187,6 @@
 		(uuid "5a8e6001-af72-4d7f-83c2-b72891159aeb")
 	)
 	(junction
-		(at 200.66 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ac3a7f2-8e56-45bf-ac29-7370411d6fb9")
-	)
-	(junction
 		(at 57.15 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2101,28 +2205,22 @@
 		(uuid "6c6f4956-18a9-49e1-a220-19ccc719b4cf")
 	)
 	(junction
+		(at 158.75 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c9abe73-89ab-437e-94cb-7ddafa2bd2d7")
+	)
+	(junction
 		(at 87.63 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd7d769-fdac-4859-bd20-9411610d3d22")
 	)
 	(junction
-		(at 224.79 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ea7c868-92bc-4418-8407-cb6a37ded56e")
-	)
-	(junction
 		(at 210.82 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7102b3e1-270c-4007-b618-4f73c988b11b")
-	)
-	(junction
-		(at 234.95 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73945643-83f8-4182-8c20-bff50b2a148a")
 	)
 	(junction
 		(at 170.18 48.26)
@@ -2137,10 +2235,10 @@
 		(uuid "86807dbe-d938-4715-a391-99b657037043")
 	)
 	(junction
-		(at 190.5 62.23)
+		(at 193.04 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "929f34c7-79b0-4c9d-a982-b0f4ada34524")
+		(uuid "8bc8d562-77fe-4e58-a9c8-82866bc364e4")
 	)
 	(junction
 		(at 114.3 104.14)
@@ -2149,16 +2247,16 @@
 		(uuid "94518be2-292d-4e4c-ae99-8a7d3872f293")
 	)
 	(junction
+		(at 215.9 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95baa389-76eb-4a4a-b89a-8d8d97fb5ac5")
+	)
+	(junction
 		(at 180.34 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99188abd-cc20-4062-8475-38778f1212d1")
-	)
-	(junction
-		(at 255.27 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a14b930-582b-49f7-aca8-f3f98b17b172")
 	)
 	(junction
 		(at 114.3 91.44)
@@ -2173,16 +2271,16 @@
 		(uuid "a7463726-852b-4e32-94be-2bb95406e2bb")
 	)
 	(junction
+		(at 259.08 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89c80ce-07c4-48e8-9728-5a31d734776e")
+	)
+	(junction
 		(at 137.16 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa887f17-8f84-4147-8e69-8fd2916236f4")
-	)
-	(junction
-		(at 200.66 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac016492-a26d-4696-826d-52506b958b40")
 	)
 	(junction
 		(at 57.15 83.82)
@@ -2191,16 +2289,22 @@
 		(uuid "ae38c143-ea05-4e96-b216-6604cf0d9aba")
 	)
 	(junction
+		(at 259.08 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0280da9-1a7a-48e5-bc9e-3de0fada26ab")
+	)
+	(junction
+		(at 181.61 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b70a40c7-b5ee-4cd4-bed2-ea710c4661f6")
+	)
+	(junction
 		(at 137.16 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba23d394-18ff-42aa-9234-077f03b69cc8")
-	)
-	(junction
-		(at 161.29 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bba5dc91-0d16-4bda-b9d4-f5518c714e34")
 	)
 	(junction
 		(at 114.3 139.7)
@@ -2209,22 +2313,16 @@
 		(uuid "c61d26a5-701e-4e99-a8c2-2a20dff7cae3")
 	)
 	(junction
+		(at 238.76 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c741f92f-2ad7-4823-a02b-074209bb564b")
+	)
+	(junction
 		(at 225.806 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7dc9b0e-49be-4f53-8390-68fd4f95e1bb")
-	)
-	(junction
-		(at 190.5 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd93c463-d82b-4e20-806e-ccbff738b476")
-	)
-	(junction
-		(at 234.95 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d05ef0aa-d7e5-49f2-bcb8-52ae5e62d7da")
 	)
 	(junction
 		(at 110.49 129.54)
@@ -2239,10 +2337,10 @@
 		(uuid "d79364a1-b60d-4fae-82ef-efee68bcf89c")
 	)
 	(junction
-		(at 209.55 62.23)
+		(at 204.47 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dfa9ab5f-fb31-4ef9-beb8-8aaa2c4aea49")
+		(uuid "de614544-473e-49df-8512-270926ef9e1f")
 	)
 	(junction
 		(at 67.31 83.82)
@@ -2275,10 +2373,10 @@
 		(uuid "e7f88954-b653-4765-92ef-5aae7e71ab89")
 	)
 	(junction
-		(at 180.34 48.26)
+		(at 204.47 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee67b6ef-955f-4375-83eb-0ba56d96ad18")
+		(uuid "ede8f0fb-1f74-4a1e-a1f5-a8b10a1144ef")
 	)
 	(junction
 		(at 77.47 129.54)
@@ -2287,10 +2385,22 @@
 		(uuid "efac7364-0fb4-478b-989a-0a5562862696")
 	)
 	(junction
+		(at 181.61 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f339a015-5adc-4f14-8456-ed5faca432ee")
+	)
+	(junction
 		(at 116.84 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6675ee7-e951-4c2c-8258-8dd2fa8f4cb9")
+	)
+	(junction
+		(at 228.6 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc08b11f-01d0-4381-bb04-89cd9c2c2465")
 	)
 	(wire
 		(pts
@@ -2331,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "0553dc0b-a836-44af-be29-10e651a6c766")
+	)
+	(polyline
+		(pts
+			(xy 220.98 66.675) (xy 273.685 66.675)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "088d58c2-fc1f-4b75-ab01-5cd3b5b8bc22")
 	)
 	(wire
 		(pts
@@ -2374,7 +2494,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 44.45) (xy 175.26 44.45)
+			(xy 218.44 44.45) (xy 149.225 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2391,6 +2511,26 @@
 			(type default)
 		)
 		(uuid "0f526ac6-cbc6-4da7-975a-d40822cc51de")
+	)
+	(wire
+		(pts
+			(xy 248.92 62.23) (xy 259.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1198668d-14b1-4781-95a2-fd9861774907")
+	)
+	(wire
+		(pts
+			(xy 204.47 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1285e864-e2eb-48e2-9329-52e052b8d3c0")
 	)
 	(wire
 		(pts
@@ -2444,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 62.23) (xy 170.18 62.23)
+			(xy 158.75 62.23) (xy 170.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2454,7 +2594,7 @@
 	)
 	(polyline
 		(pts
-			(xy 280.035 44.45) (xy 280.035 66.04)
+			(xy 273.685 44.45) (xy 273.685 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 62.23) (xy 190.5 62.23)
+			(xy 180.34 62.23) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +2654,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 62.23) (xy 255.27 58.42)
+			(xy 259.08 62.23) (xy 259.08 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2534,23 +2674,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 48.26) (xy 209.55 52.07)
+			(xy 215.9 48.26) (xy 215.9 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27f31756-1074-4023-8e90-9c86721135ea")
-	)
-	(wire
-		(pts
-			(xy 234.95 48.26) (xy 245.11 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ab4b882-4cc1-490a-a0a3-72f9484a6ad4")
 	)
 	(wire
 		(pts
@@ -2594,6 +2724,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 48.26) (xy 193.04 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1b692-0995-4698-8687-58aa25ea0569")
+	)
+	(wire
+		(pts
 			(xy 57.15 111.76) (xy 67.31 111.76)
 		)
 		(stroke
@@ -2601,16 +2741,6 @@
 			(type default)
 		)
 		(uuid "2de274f2-b954-42fc-b0ed-9ff9774ba286")
-	)
-	(polyline
-		(pts
-			(xy 280.035 66.04) (xy 217.17 66.675)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "2ee77222-d545-4933-aa6c-b08da860d062")
 	)
 	(wire
 		(pts
@@ -2634,17 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 255.27 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eba0ac-6855-45ac-bcdf-b31d1fda1272")
-	)
-	(wire
-		(pts
-			(xy 255.27 48.26) (xy 255.27 50.8)
+			(xy 259.08 48.26) (xy 259.08 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 57.15) (xy 209.55 62.23)
+			(xy 215.9 57.15) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2684,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 48.26) (xy 245.11 50.8)
+			(xy 248.92 48.26) (xy 248.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2704,6 +2824,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 48.26) (xy 204.47 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355fb85c-9824-4b97-aaf7-69004de854db")
+	)
+	(wire
+		(pts
 			(xy 87.63 71.12) (xy 87.63 66.04)
 		)
 		(stroke
@@ -2714,13 +2844,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 62.23) (xy 224.79 62.23)
+			(xy 193.04 62.23) (xy 204.47 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36c50f19-1f73-4cc9-81ba-50c85e9c0ca1")
+		(uuid "36d4e501-b662-412b-9679-19e1489a8c1a")
 	)
 	(wire
 		(pts
@@ -2744,16 +2874,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 48.26) (xy 265.43 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37cac42d-9123-4e4e-a34b-80151afed983")
-	)
-	(wire
-		(pts
 			(xy 115.57 114.3) (xy 116.84 114.3)
 		)
 		(stroke
@@ -2764,7 +2884,7 @@
 	)
 	(polyline
 		(pts
-			(xy 217.17 44.45) (xy 217.17 66.675)
+			(xy 220.98 44.45) (xy 220.98 66.675)
 		)
 		(stroke
 			(width 0)
@@ -2864,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 57.15) (xy 190.5 62.23)
+			(xy 193.04 57.15) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 200.66 52.07)
+			(xy 204.47 48.26) (xy 204.47 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2884,23 +3004,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 48.26) (xy 234.95 50.8)
+			(xy 238.76 48.26) (xy 238.76 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49751643-32e4-4e1a-a32d-75bc94680191")
-	)
-	(wire
-		(pts
-			(xy 234.95 62.23) (xy 245.11 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afb042e-9607-48e6-87f5-27f9ba89d65d")
 	)
 	(polyline
 		(pts
@@ -2931,26 +3041,6 @@
 			(type default)
 		)
 		(uuid "4bb59182-63ed-4830-8f35-80334c867b6b")
-	)
-	(wire
-		(pts
-			(xy 200.66 62.23) (xy 209.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c15cc17-1690-497d-8dce-5a2e7230dd22")
-	)
-	(wire
-		(pts
-			(xy 209.55 48.26) (xy 224.79 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9cb2b7-66f0-4855-985e-b1bc596dc312")
 	)
 	(wire
 		(pts
@@ -3004,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 62.23) (xy 265.43 58.42)
+			(xy 269.24 62.23) (xy 269.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3014,13 +3104,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 161.29 52.07)
+			(xy 158.75 48.26) (xy 158.75 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "573eec99-1601-41a7-a46e-805a37b51096")
+	)
+	(wire
+		(pts
+			(xy 215.9 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585edc61-1cc1-42cb-bdeb-98498f32c978")
 	)
 	(wire
 		(pts
@@ -3064,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 48.26) (xy 265.43 50.8)
+			(xy 269.24 48.26) (xy 269.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3081,6 +3181,16 @@
 			(type default)
 		)
 		(uuid "60da733d-21e5-42e2-a8ec-a73f9ac3b0aa")
+	)
+	(wire
+		(pts
+			(xy 228.6 62.23) (xy 238.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624d3353-70a9-40f8-8814-e7fde8accd93")
 	)
 	(wire
 		(pts
@@ -3174,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 48.26) (xy 224.79 50.8)
+			(xy 228.6 48.26) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3184,23 +3294,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 62.23) (xy 245.11 58.42)
+			(xy 248.92 62.23) (xy 248.92 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70f88cd6-2ff3-4944-89e1-4741e3ad198f")
-	)
-	(wire
-		(pts
-			(xy 161.29 48.26) (xy 170.18 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7158dd25-bea7-4aba-88f5-754f66e7207f")
 	)
 	(wire
 		(pts
@@ -3234,16 +3334,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 48.26) (xy 255.27 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7573fc5b-0a14-4674-add1-b83b65e7b92c")
-	)
-	(wire
-		(pts
 			(xy 119.38 68.58) (xy 119.38 67.31)
 		)
 		(stroke
@@ -3254,7 +3344,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 44.45) (xy 175.26 66.675)
+			(xy 149.225 44.45) (xy 149.225 66.675)
 		)
 		(stroke
 			(width 0)
@@ -3284,13 +3374,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 234.95 58.42)
+			(xy 238.76 62.23) (xy 238.76 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7eb65d3c-c546-4b3b-840d-eaa1889120ac")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 228.6 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f61daa6-55c1-4a09-98b4-68a36d63ee5d")
 	)
 	(wire
 		(pts
@@ -3301,16 +3401,6 @@
 			(type default)
 		)
 		(uuid "82c006c4-bcfe-4024-bb01-5eb5a231e4ff")
-	)
-	(wire
-		(pts
-			(xy 255.27 62.23) (xy 265.43 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849ab1ce-ea51-4c55-ab26-4e74ebf033e4")
 	)
 	(wire
 		(pts
@@ -3361,16 +3451,6 @@
 			(type default)
 		)
 		(uuid "8d1377e9-20fe-419b-b062-6d1aa8afd553")
-	)
-	(wire
-		(pts
-			(xy 190.5 48.26) (xy 200.66 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d1df9c2-2a4c-401e-b1f8-a15a6376e3b7")
 	)
 	(polyline
 		(pts
@@ -3424,6 +3504,26 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 48.26) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ef7ec5-961c-4af0-bc46-33e0bcdde030")
+	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925c2159-9235-451e-b331-3f4d6dc5bdf4")
+	)
+	(wire
+		(pts
 			(xy 138.43 114.3) (xy 139.7 114.3)
 		)
 		(stroke
@@ -3474,13 +3574,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 180.34 48.26)
+			(xy 170.18 48.26) (xy 181.61 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9aeb029c-2724-45a0-8fab-5fb88bdd53a3")
+	)
+	(wire
+		(pts
+			(xy 228.6 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b470c4b-6120-4c10-9dd0-3fa6b1545259")
+	)
+	(wire
+		(pts
+			(xy 259.08 62.23) (xy 269.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2baeff-7bab-4282-b50a-9c51244f7049")
 	)
 	(wire
 		(pts
@@ -3524,7 +3644,7 @@
 	)
 	(polyline
 		(pts
-			(xy 217.17 44.45) (xy 280.035 44.45)
+			(xy 220.98 44.45) (xy 273.685 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 58.42) (xy 224.79 62.23)
+			(xy 228.6 58.42) (xy 228.6 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3704,7 @@
 	)
 	(polyline
 		(pts
-			(xy 215.9 44.45) (xy 215.9 66.675)
+			(xy 218.44 44.45) (xy 218.44 66.675)
 		)
 		(stroke
 			(width 0)
@@ -3611,6 +3731,16 @@
 			(type default)
 		)
 		(uuid "a86ca152-1627-4a00-9c5c-0850129c2e3f")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 248.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8eaf22a-8052-470f-ad84-76eecf1396ba")
 	)
 	(wire
 		(pts
@@ -3644,17 +3774,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 209.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af66d2f2-07b2-49b8-8d4b-7418413fd925")
-	)
-	(wire
-		(pts
-			(xy 161.29 57.15) (xy 161.29 62.23)
+			(xy 158.75 57.15) (xy 158.75 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3664,13 +3784,33 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 57.15) (xy 180.34 62.23)
+			(xy 181.61 57.15) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2063a2c-91db-4d56-9574-f1c112e31260")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 248.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b328be3f-f45a-490e-81cf-a8a767e5af07")
+	)
+	(polyline
+		(pts
+			(xy 273.685 66.675) (xy 273.685 66.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b51ce29e-cb44-49a9-91d8-7ebb32a00689")
 	)
 	(wire
 		(pts
@@ -3704,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 48.26) (xy 180.34 52.07)
+			(xy 181.61 48.26) (xy 181.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3734,6 +3874,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 62.23) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96b5e0a-f325-463e-a1c2-c51bf6489c73")
+	)
+	(wire
+		(pts
 			(xy 113.03 58.42) (xy 113.03 62.23)
 		)
 		(stroke
@@ -3744,23 +3894,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 190.5 52.07)
+			(xy 193.04 48.26) (xy 193.04 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc8b2c68-ca40-4308-825f-faf8fd9984e4")
-	)
-	(wire
-		(pts
-			(xy 180.34 48.26) (xy 190.5 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be6526f6-69c9-4ce0-8ebd-fae50ece15e7")
 	)
 	(wire
 		(pts
@@ -3784,23 +3924,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 62.23) (xy 200.66 62.23)
+			(xy 259.08 48.26) (xy 269.24 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2c6fb6f-d934-42d6-beac-8f789d0e41cc")
-	)
-	(wire
-		(pts
-			(xy 224.79 48.26) (xy 234.95 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c324a19b-1ee8-40d8-8e6b-432e102e470b")
+		(uuid "c2845365-2407-4944-b413-b5abc2630dc7")
 	)
 	(wire
 		(pts
@@ -3881,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "d68124a2-61c7-46e2-b022-3755302f934a")
+	)
+	(wire
+		(pts
+			(xy 248.92 48.26) (xy 259.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9394b0d-ad19-47b4-9efb-242c47acc140")
 	)
 	(wire
 		(pts
@@ -3984,16 +4124,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 62.23) (xy 234.95 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e72edf5a-ec57-451c-b66c-ceef69bd5a28")
-	)
-	(wire
-		(pts
 			(xy 67.31 66.04) (xy 77.47 66.04)
 		)
 		(stroke
@@ -4024,7 +4154,7 @@
 	)
 	(polyline
 		(pts
-			(xy 175.26 66.675) (xy 215.9 66.675)
+			(xy 149.225 66.675) (xy 218.44 66.675)
 		)
 		(stroke
 			(width 0)
@@ -4074,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 57.15) (xy 200.66 62.23)
+			(xy 204.47 57.15) (xy 204.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4084,7 +4214,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 48.26) (xy 161.29 48.26)
+			(xy 133.35 48.26) (xy 158.75 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4132,73 +4262,8 @@
 		)
 		(uuid "ff7393c4-6579-4bc6-aac9-20f414375d6b")
 	)
-	(text "Desaturation point (D_BOT, S_BOT)\n"
-		(exclude_from_sim no)
-		(at 29.21 99.695 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "116a5e43-96e1-444b-b95d-bff87aacd35a")
-	)
-	(text "Desaturation point (D_TOP, S_TOP)\n"
-		(exclude_from_sim no)
-		(at 29.21 54.102 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "302060ee-313c-484d-adf3-923ff6fbacf0")
-	)
-	(text "3-parallel SiC-MOSFET Half-bridge"
-		(exclude_from_sim no)
-		(at 39.116 32.004 0)
-		(effects
-			(font
-				(size 6.604 6.604)
-				(thickness 1.3208)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a9d4e7-bf4e-4b9b-8ac0-dd1d5a1363ec")
-	)
-	(text "3.3uF film capacitor\n"
-		(exclude_from_sim no)
-		(at 234.696 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "965065b8-a105-4b72-bff4-9d3f95b65c49")
-	)
-	(text "CERALINK- CAPACITORS\n"
-		(exclude_from_sim no)
-		(at 195.58 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dec55427-4bdb-4af3-8c6b-eeb4def1e4b8")
-	)
-	(text "0.5mOhm x3\n"
-		(exclude_from_sim no)
-		(at 213.36 78.105 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2ceb56e-3991-46c2-ae81-85609e79520d")
-	)
 	(label "GT1"
 		(at 102.87 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4209,7 +4274,6 @@
 	)
 	(label "G_bottom_1"
 		(at 97.79 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4220,7 +4284,6 @@
 	)
 	(label "GT2"
 		(at 102.87 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4231,7 +4294,6 @@
 	)
 	(label "G_bottom_2"
 		(at 97.79 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4242,7 +4304,6 @@
 	)
 	(label "node_a"
 		(at 92.71 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4254,7 +4315,6 @@
 	(hierarchical_label "G_BOT"
 		(shape input)
 		(at 44.45 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4266,7 +4326,6 @@
 	(hierarchical_label "NTC_BOT"
 		(shape input)
 		(at 44.45 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4278,7 +4337,6 @@
 	(hierarchical_label "D_BOT"
 		(shape input)
 		(at 44.45 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4290,7 +4348,6 @@
 	(hierarchical_label "G_TOP"
 		(shape input)
 		(at 44.45 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4302,7 +4359,6 @@
 	(hierarchical_label "SHUNT+"
 		(shape input)
 		(at 214.884 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -4314,7 +4370,6 @@
 	(hierarchical_label "D_TOP"
 		(shape input)
 		(at 44.45 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4326,7 +4381,6 @@
 	(hierarchical_label "S_BOT"
 		(shape input)
 		(at 44.45 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4338,7 +4392,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 44.45 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4350,7 +4403,6 @@
 	(hierarchical_label "S_TOP"
 		(shape input)
 		(at 44.45 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4362,7 +4414,6 @@
 	(hierarchical_label "PHASE"
 		(shape output)
 		(at 234.95 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4374,7 +4425,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 44.45 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4386,7 +4436,6 @@
 	(hierarchical_label "SHUNT-"
 		(shape input)
 		(at 214.884 97.028 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -4404,7 +4453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0278ceb6-8803-4ce6-907c-1a11309f10aa")
-		(property "Reference" "R24"
+		(property "Reference" "R13"
 			(at 218.44 98.806 90)
 			(effects
 				(font
@@ -4492,15 +4541,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R36")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4508,16 +4557,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 224.79 54.61 0)
+		(at 228.6 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03f83a60-547d-4346-bce5-0271e4f0e186")
-		(property "Reference" "C8"
-			(at 228.6 53.3399 0)
+		(property "Reference" "C9"
+			(at 222.25 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,8 +4573,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 228.6 55.8799 0)
+		(property "Value" "5uF"
+			(at 222.504 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,8 +4582,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 225.7552 58.42 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+			(at 229.5652 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,8 +4591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 224.79 54.61 0)
+		(property "Datasheet" "~https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32714H_B32718H_Series.pdf"
+			(at 228.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,12 +4601,47 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 224.79 54.61 0)
+			(at 228.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "BOM" "MKP DC FILTERING - 500VDC, 5UF 1"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32714H5505K000"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4570,15 +4653,15 @@
 		(instances
 			(project ""
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C8")
+					(reference "C22")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C9")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4594,7 +4677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fd0406-2f0b-4f04-a5cf-b40716a9b5bf")
-		(property "Reference" "D8"
+		(property "Reference" "D3"
 			(at 69.85 52.07 0)
 			(effects
 				(font
@@ -4664,15 +4747,15 @@
 		(instances
 			(project ""
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "D8")
-					(unit 1)
-				)
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
 					(reference "D7")
 					(unit 1)
 				)
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
+					(reference "D3")
+					(unit 1)
+				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09c37227-e4f3-420e-bbe0-d4cbeab04ceb")
-		(property "Reference" "R9"
+		(property "Reference" "R4"
 			(at 49.53 140.97 90)
 			(effects
 				(font
@@ -4775,15 +4858,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -4791,16 +4874,15 @@
 	)
 	(symbol
 		(lib_id "pasv-cap:C-2220")
-		(at 209.55 54.61 0)
+		(at 215.9 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0d5f6ed6-f8d3-4bef-b7b2-63e6b950c286")
-		(property "Reference" "C17"
-			(at 213.36 53.3399 0)
+		(property "Reference" "C8"
+			(at 207.264 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,18 +4890,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 213.36 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 207.264 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
-			(at 209.55 54.61 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,16 +4908,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 209.296 55.245 0)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
+			(at 215.646 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
-			(at 209.55 54.61 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,13 +4926,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
-			(at 229.87 40.64 0)
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
+			(at 236.22 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 215.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 215.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 209.804 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4862,15 +4970,15 @@
 		(instances
 			(project ""
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C16")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C18")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4885,7 +4993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bc94042-7fe2-4d63-8de3-c05fbc8a3fe6")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 55.118 118.3386 90)
 			(effects
 				(font
@@ -4984,15 +5092,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "D6")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26f5d4b2-25c9-4227-a67c-18829f231412")
-		(property "Reference" "R17"
+		(property "Reference" "R8"
 			(at 93.98 68.58 90)
 			(effects
 				(font
@@ -5096,15 +5204,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5118,10 +5226,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a156d0c-3da3-4a9e-91ba-483a83266d4f")
-		(property "Reference" "C30"
-			(at 173.99 53.3399 0)
+		(property "Reference" "C4"
+			(at 161.544 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5129,14 +5236,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 173.99 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 161.544 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
@@ -5148,12 +5254,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
 			(at 169.926 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
@@ -5165,13 +5272,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
 			(at 190.5 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 170.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 164.084 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5183,15 +5316,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C30")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C29")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5207,7 +5340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3781f05e-a235-497c-bf05-e3c174d41865")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 93.98 114.3 90)
 			(effects
 				(font
@@ -5299,11 +5432,11 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f220dc4-f7f4-4695-b0eb-97c05e1ec924")
-		(property "Reference" "Q8"
+		(property "Reference" "Q2"
 			(at 120.65 111.3789 0)
 			(effects
 				(font
@@ -5338,7 +5471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiC_ONSEMI:D2PAK-7L"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -5357,6 +5490,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "D2PAK7(TO-263-7L-HV) Silicon Carbide Field Effect Transistor (MOSFET) ROHS"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5209029"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTBG014N120M3P"
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -5392,7 +5561,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "Q8")
+					(reference "Q6")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -5400,7 +5569,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "Q14")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -5416,7 +5585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d1b5c0-321e-4e79-8530-25c4f2409bd1")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 93.98 63.5 90)
 			(effects
 				(font
@@ -5504,15 +5673,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -5520,16 +5689,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 255.27 54.61 0)
+		(at 259.08 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "46e8cd68-d9b1-4871-93c1-a40c50788044")
-		(property "Reference" "C36"
-			(at 259.08 53.3399 0)
+		(property "Reference" "C12"
+			(at 252.984 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,8 +5705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 259.08 55.8799 0)
+		(property "Value" "5uF"
+			(at 252.984 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,8 +5714,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 256.2352 58.42 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+			(at 260.0452 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,8 +5723,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 255.27 54.61 0)
+		(property "Datasheet" "~https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32714H_B32718H_Series.pdf"
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,12 +5733,47 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 255.27 54.61 0)
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "BOM" "MKP DC FILTERING - 500VDC, 5UF 1"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32714H5505K000"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 255.524 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5582,15 +5785,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C36")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C35")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5598,16 +5801,15 @@
 	)
 	(symbol
 		(lib_id "pasv-cap:C-2220")
-		(at 180.34 54.61 0)
+		(at 181.61 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a99e9c1-44d2-4107-8003-5934de793bb3")
-		(property "Reference" "C26"
-			(at 184.15 53.3399 0)
+		(property "Reference" "C5"
+			(at 172.974 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,18 +5817,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 184.15 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 172.974 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
-			(at 180.34 54.61 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,16 +5835,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 180.086 55.245 0)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
+			(at 181.356 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
-			(at 180.34 54.61 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,13 +5853,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
-			(at 200.66 40.64 0)
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
+			(at 201.93 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 181.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 175.514 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5669,15 +5897,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C25")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C27")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -5685,16 +5913,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 265.43 54.61 0)
+		(at 269.24 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "63440195-3e23-491b-ad9c-ee71477aeeb3")
-		(property "Reference" "C39"
-			(at 269.24 53.3399 0)
+		(property "Reference" "C13"
+			(at 263.144 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,8 +5929,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 269.24 55.8799 0)
+		(property "Value" "5uF"
+			(at 263.144 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +5939,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 266.3952 58.42 0)
+			(at 270.2052 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,8 +5947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 265.43 54.61 0)
+		(property "Datasheet" "~https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32714H_B32718H_Series.pdf"
+			(at 269.24 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,12 +5957,47 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 265.43 54.61 0)
+			(at 269.24 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "BOM" "MKP DC FILTERING - 500VDC, 5UF 1"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32714H5505K000"
+			(at 269.24 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 265.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5747,15 +6009,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C39")
+					(reference "C26")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C38")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C40")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5771,7 +6033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75bbeb89-751a-42cd-adf4-d629ef61d0bb")
-		(property "Reference" "R23"
+		(property "Reference" "R12"
 			(at 218.44 89.5099 0)
 			(effects
 				(font
@@ -5866,15 +6128,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R35")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5889,7 +6151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7761f1b7-dfce-4806-b327-2dc0aa5b94c5")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 74.6252 119.4816 0)
 			(effects
 				(font
@@ -5978,15 +6240,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C4")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C6")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5994,16 +6256,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 54.61 0)
+		(at 248.92 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80eb5111-0a56-493e-810d-17d8e7ef56ec")
-		(property "Reference" "C14"
-			(at 248.92 53.3399 0)
+		(property "Reference" "C11"
+			(at 242.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,8 +6272,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 248.92 55.8799 0)
+		(property "Value" "5uF"
+			(at 242.824 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,8 +6281,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 246.0752 58.42 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+			(at 249.8852 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,8 +6290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 245.11 54.61 0)
+		(property "Datasheet" "~https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32714H_B32718H_Series.pdf"
+			(at 248.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,12 +6300,47 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 54.61 0)
+			(at 248.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "BOM" "MKP DC FILTERING - 500VDC, 5UF 1"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32714H5505K000"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 245.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6056,15 +6352,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C14")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C15")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -6080,7 +6376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85593bb9-c489-4c36-8f67-2cc1717b8826")
-		(property "Reference" "Q10"
+		(property "Reference" "Q4"
 			(at 140.97 111.3789 0)
 			(effects
 				(font
@@ -6099,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiC_ONSEMI:D2PAK-7L"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -6118,6 +6414,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "D2PAK7(TO-263-7L-HV) Silicon Carbide Field Effect Transistor (MOSFET) ROHS"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5209029"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTBG014N120M3P"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -6153,7 +6485,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "Q10")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -6161,7 +6493,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "Q16")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -6169,16 +6501,15 @@
 	)
 	(symbol
 		(lib_id "pasv-cap:C-2220")
-		(at 190.5 54.61 0)
+		(at 193.04 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85d2ad99-2362-49d4-992c-700dd117aa27")
-		(property "Reference" "C23"
-			(at 194.31 53.3399 0)
+		(property "Reference" "C6"
+			(at 184.404 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,18 +6517,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 194.31 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 184.404 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
-			(at 190.5 54.61 0)
+			(at 193.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,16 +6535,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.246 55.245 0)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
+			(at 192.786 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
-			(at 190.5 54.61 0)
+			(at 193.04 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,13 +6553,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
-			(at 210.82 40.64 0)
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 186.944 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6240,15 +6597,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C23")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C24")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6256,16 +6613,15 @@
 	)
 	(symbol
 		(lib_id "pasv-cap:C-2220")
-		(at 200.66 54.61 0)
+		(at 204.47 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9565e7de-7b33-48cb-8301-6a0887452d43")
-		(property "Reference" "C20"
-			(at 204.47 53.3399 0)
+		(property "Reference" "C7"
+			(at 195.834 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,18 +6629,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 204.47 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 195.834 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
-			(at 200.66 54.61 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,16 +6647,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 200.406 55.245 0)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
+			(at 204.216 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
-			(at 200.66 54.61 0)
+			(at 204.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,13 +6665,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
-			(at 220.98 40.64 0)
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
+			(at 224.79 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 198.374 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6331,11 +6713,11 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C19")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C21")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abfdb375-2106-428e-81b2-3eff843b808e")
-		(property "Reference" "D11"
+		(property "Reference" "D4"
 			(at 69.85 97.79 0)
 			(effects
 				(font
@@ -6421,11 +6803,11 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "D10")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
@@ -6445,7 +6827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be7a7b32-2a37-4a40-a31a-2bce04000570")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 65.7098 73.7616 0)
 			(effects
 				(font
@@ -6535,15 +6917,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6558,7 +6940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccae7ae9-0aca-4aea-9dba-b95b17bf6fd1")
-		(property "Reference" "R22"
+		(property "Reference" "R11"
 			(at 218.44 81.026 90)
 			(effects
 				(font
@@ -6646,15 +7028,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R34")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6662,16 +7044,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 234.95 54.61 0)
+		(at 238.76 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce8bb880-41c1-469f-9113-34a7127dafae")
-		(property "Reference" "C11"
-			(at 238.76 53.3399 0)
+		(property "Reference" "C10"
+			(at 232.156 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,8 +7060,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 238.76 55.8799 0)
+		(property "Value" "5uF"
+			(at 232.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,8 +7069,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
-			(at 235.9152 58.42 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W11.0mm_P27.50mm_MKS4"
+			(at 239.7252 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,8 +7078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 54.61 0)
+		(property "Datasheet" "~https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/B32714H_B32718H_Series.pdf"
+			(at 238.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,12 +7088,47 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 234.95 54.61 0)
+			(at 238.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "BOM" "MKP DC FILTERING - 500VDC, 5UF 1"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B32714H5505K000"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "500V"
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6724,7 +7140,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C11")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -6732,7 +7148,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C12")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6748,7 +7164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d8c3be3d-f868-40f0-960f-8db8d7b48688")
-		(property "Reference" "R15"
+		(property "Reference" "R6"
 			(at 65.7098 119.4816 0)
 			(effects
 				(font
@@ -6838,15 +7254,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6862,7 +7278,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da691a39-69cc-4853-9130-ad77725a6930")
-		(property "Reference" "R19"
+		(property "Reference" "R9"
 			(at 93.98 109.22 90)
 			(effects
 				(font
@@ -6954,11 +7370,11 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6966,16 +7382,15 @@
 	)
 	(symbol
 		(lib_id "pasv-cap:C-2220")
-		(at 161.29 54.61 0)
+		(at 158.75 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e14f862b-3518-491b-a339-929551df228d")
-		(property "Reference" "C33"
-			(at 165.1 53.3399 0)
+		(property "Reference" "C3"
+			(at 150.368 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,18 +7398,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-2220"
-			(at 165.1 55.8799 0)
+		(property "Value" "0.25uF"
+			(at 150.368 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:CAPC5750X279"
-			(at 161.29 54.61 0)
+			(at 158.75 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,16 +7416,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 161.036 55.245 0)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/10/ds/b58043_smd.pdf"
+			(at 158.496 55.245 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" "Chip capacitor, EIA 2220, metric 5750"
-			(at 161.29 54.61 0)
+			(at 158.75 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,13 +7434,39 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" ""
-			(at 181.61 40.64 0)
+		(property "BOM" "CERALINK SMD 2220 - 500 V"
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFR" "EPCOS - TDK Electronics"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B58043I5254M052"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Volatage" "500V"
+			(at 152.908 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7037,15 +7478,15 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C33")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
-					(reference "C32")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C34")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9023117-2908-41d8-bc90-1422aecefc67")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 74.6252 73.7616 0)
 			(effects
 				(font
@@ -7149,7 +7590,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -7157,7 +7598,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "C5")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7172,7 +7613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb4f9ce8-458d-4f5b-ac41-885d9bc01c63")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 55.118 72.6186 90)
 			(effects
 				(font
@@ -7271,7 +7712,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -7279,7 +7720,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "D5")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4376c93-6b21-4ece-aa0d-54d2fa3cd75e")
-		(property "Reference" "Q9"
+		(property "Reference" "Q3"
 			(at 140.97 65.6589 0)
 			(effects
 				(font
@@ -7314,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiC_ONSEMI:D2PAK-7L"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -7333,6 +7774,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "D2PAK7(TO-263-7L-HV) Silicon Carbide Field Effect Transistor (MOSFET) ROHS"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5209029"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTBG014N120M3P"
 			(at 134.62 64.77 0)
 			(effects
 				(font
@@ -7368,7 +7845,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "Q9")
+					(reference "Q7")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -7376,7 +7853,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "Q15")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -7392,7 +7869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86a531b-d0f9-45ea-a825-59312a252b6a")
-		(property "Reference" "Q7"
+		(property "Reference" "Q1"
 			(at 120.65 65.6589 0)
 			(effects
 				(font
@@ -7411,7 +7888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SiC_ONSEMI:D2PAK-7L"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-7_TabPin8"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -7430,6 +7907,42 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM" "D2PAK7(TO-263-7L-HV) Silicon Carbide Field Effect Transistor (MOSFET) ROHS"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "NTBG014N120M3P"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "onsemi"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C5209029"
 			(at 114.3 64.77 0)
 			(effects
 				(font
@@ -7465,7 +7978,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/24081cfa-0625-4c61-9049-ae8e6ac02272"
-					(reference "Q7")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/c1776d2a-ee67-431b-986b-a5ac4fed0211"
@@ -7473,7 +7986,7 @@
 					(unit 1)
 				)
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b/cd309452-2f5d-4682-a03a-ad449029d252"
-					(reference "Q13")
+					(reference "Q9")
 					(unit 1)
 				)
 			)

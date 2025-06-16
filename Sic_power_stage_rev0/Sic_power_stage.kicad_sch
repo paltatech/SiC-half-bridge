@@ -2945,7 +2945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00d26dc4-983b-4e3d-b5af-e16f1574f401")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 97.79 181.61 0)
 			(effects
 				(font
@@ -2994,7 +2994,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05b5edc5-d31f-4776-bb5d-d544e7a4d6a9")
-		(property "Reference" "STANDOFF10"
+		(property "Reference" "STANDOFF15"
 			(at 235.6612 84.1248 0)
 			(effects
 				(font
@@ -3178,7 +3178,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF10")
+					(reference "STANDOFF15")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ae17487-3fdd-47df-909b-7beaeb5d6477")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 105.41 67.31 0)
 			(effects
 				(font
@@ -3242,7 +3242,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3257,7 +3257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ca572c7-4fbb-414f-8dbc-50a63a3bdb18")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 105.41 129.54 90)
 			(effects
 				(font
@@ -3339,7 +3339,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11920928-cba3-4c69-bc61-0aa6a0f3fc30")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR015"
 			(at 105.41 29.21 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR02")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1210e227-39b3-49c4-809f-5499de67ce7b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR010"
 			(at 91.44 189.23 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3482,7 +3482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "140d29b3-56d8-435c-9227-5f74bbacceba")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -3530,7 +3530,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "141508a4-4017-48a0-9a8b-f4de1c5d2406")
-		(property "Reference" "STANDOFF3"
+		(property "Reference" "STANDOFF8"
 			(at 86.9188 76.5048 0)
 			(effects
 				(font
@@ -3614,7 +3614,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF3")
+					(reference "STANDOFF8")
 					(unit 1)
 				)
 			)
@@ -3629,7 +3629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20bccff0-7677-4123-be52-1f7ad9fb94a2")
-		(property "Reference" "R40"
+		(property "Reference" "R1"
 			(at 84.328 178.816 90)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R40")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3808,7 +3808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25dcc2f8-bb9c-425f-8f87-90a9f14627a2")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 35.306 192.532 0)
 			(effects
 				(font
@@ -3857,7 +3857,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3872,7 +3872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "305bf533-0fa0-40ef-8653-82ccc38a1bf3")
-		(property "Reference" "STANDOFF16"
+		(property "Reference" "STANDOFF1"
 			(at 43.8912 134.2898 0)
 			(effects
 				(font
@@ -3958,7 +3958,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF16")
+					(reference "STANDOFF1")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "357eb354-e7c1-423f-90e0-5abcfe08d97a")
-		(property "Reference" "STANDOFF1"
+		(property "Reference" "STANDOFF6"
 			(at 86.9188 30.7848 0)
 			(effects
 				(font
@@ -4042,7 +4042,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF1")
+					(reference "STANDOFF6")
 					(unit 1)
 				)
 			)
@@ -4057,7 +4057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3597eebd-4850-48d7-82b9-c45ceeeaa65a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR06"
 			(at 48.006 192.532 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR015")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4121,7 +4121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3875a964-35b0-4bac-9ef4-46043e74a632")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 96.52 55.88 0)
 			(effects
 				(font
@@ -4170,7 +4170,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4185,7 +4185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390870f0-6b48-4940-a00e-7a60d958031e")
-		(property "Reference" "STANDOFF7"
+		(property "Reference" "STANDOFF12"
 			(at 234.3912 38.4048 0)
 			(effects
 				(font
@@ -4253,7 +4253,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF7")
+					(reference "STANDOFF12")
 					(unit 1)
 				)
 			)
@@ -4268,7 +4268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3951d4cf-474d-4f1e-a971-b17508a641dd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR02"
 			(at 31.115 117.475 0)
 			(effects
 				(font
@@ -4317,7 +4317,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR011")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4433,7 +4433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d99a34e-89a6-41e8-a17f-b1826ef25806")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR013"
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -4482,7 +4482,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR07")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eaea58c-eb36-4991-b1f9-ee7fdc208ab7")
-		(property "Reference" "STANDOFF14"
+		(property "Reference" "STANDOFF19"
 			(at 235.6612 136.1948 0)
 			(effects
 				(font
@@ -4565,7 +4565,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF14")
+					(reference "STANDOFF19")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ff1e59d-c540-4cde-8432-ac1ec4862034")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 105.41 158.75 0)
 			(effects
 				(font
@@ -4629,7 +4629,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4644,7 +4644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43384e69-bc68-4234-babd-e4fd36c42e2b")
-		(property "Reference" "STANDOFF17"
+		(property "Reference" "STANDOFF2"
 			(at 43.8912 144.4498 0)
 			(effects
 				(font
@@ -4730,7 +4730,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF17")
+					(reference "STANDOFF2")
 					(unit 1)
 				)
 			)
@@ -4746,7 +4746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43e8872d-1650-4d02-9e39-27bd54e5af09")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 41.656 180.086 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ca0496e-82d4-4d05-8537-968a09b23ce1")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR04"
 			(at 34.29 167.64 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR024")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4906,7 +4906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e579089-10aa-4d65-9d1a-829b75c51c38")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR01"
 			(at 31.115 102.87 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR010")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4969,7 +4969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "561c02c1-8326-4a44-bc86-6943ba33f6e7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 35.56 173.99 0)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ca9efd1-7b25-4fa5-8b79-7b051d01da26")
-		(property "Reference" "STANDOFF15"
+		(property "Reference" "STANDOFF20"
 			(at 235.6612 142.5448 0)
 			(effects
 				(font
@@ -5101,7 +5101,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF15")
+					(reference "STANDOFF20")
 					(unit 1)
 				)
 			)
@@ -5116,7 +5116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6270bd53-6afc-4d4b-96cc-59e6522573da")
-		(property "Reference" "STANDOFF13"
+		(property "Reference" "STANDOFF18"
 			(at 235.6612 129.8448 0)
 			(effects
 				(font
@@ -5184,7 +5184,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF13")
+					(reference "STANDOFF18")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69ba538e-b006-4853-8ebf-b924cae750ca")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 105.41 74.93 0)
 			(effects
 				(font
@@ -5247,7 +5247,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5262,7 +5262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "724fb081-5374-404f-b17f-a98c529b41da")
-		(property "Reference" "STANDOFF11"
+		(property "Reference" "STANDOFF16"
 			(at 235.6612 90.4748 0)
 			(effects
 				(font
@@ -5330,7 +5330,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF11")
+					(reference "STANDOFF16")
 					(unit 1)
 				)
 			)
@@ -5346,7 +5346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76e20e91-216b-4a65-b36f-3d71f1fe4e3e")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 41.91 161.544 0)
 			(effects
 				(font
@@ -5427,7 +5427,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79bc1bd7-f25c-40d8-ab47-13bba07a3cc8")
-		(property "Reference" "R42"
+		(property "Reference" "R3"
 			(at 92.202 178.816 90)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R42")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5622,7 +5622,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7df5cbe2-273c-42f4-bce0-a2debb7b930a")
-		(property "Reference" "STANDOFF6"
+		(property "Reference" "STANDOFF11"
 			(at 86.9188 156.5148 0)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF6")
+					(reference "STANDOFF11")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80003829-8803-4cb5-af79-aeaee8f79f1d")
-		(property "Reference" "STANDOFF8"
+		(property "Reference" "STANDOFF13"
 			(at 234.3912 44.7548 0)
 			(effects
 				(font
@@ -5782,7 +5782,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF8")
+					(reference "STANDOFF13")
 					(unit 1)
 				)
 			)
@@ -5798,7 +5798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a56229-b435-482a-98ca-b584042ac0e5")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 105.41 53.34 90)
 			(effects
 				(font
@@ -5880,7 +5880,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5895,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "861083bc-f257-4a8a-9804-60f6553c4845")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 49.53 167.64 0)
 			(effects
 				(font
@@ -5944,7 +5944,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5959,7 +5959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "892fa4ba-b210-4aa2-a4b4-eda2706e3225")
-		(property "Reference" "R41"
+		(property "Reference" "R2"
 			(at 84.582 186.436 90)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R41")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a3ab718-94dd-4eee-a51b-6d97c2c565b0")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 105.41 99.06 90)
 			(effects
 				(font
@@ -6120,7 +6120,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6236,7 +6236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ddf1a54-44b1-4f73-bc4c-6b9f30b9a358")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 96.52 101.6 0)
 			(effects
 				(font
@@ -6285,7 +6285,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR04")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6401,7 +6401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c5c3ab-3cde-464d-8a82-46508a7692ab")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 105.41 38.1 90)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6498,7 +6498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9e60826-6cd1-4b1f-bb21-d387fa433a53")
-		(property "Reference" "STANDOFF19"
+		(property "Reference" "STANDOFF4"
 			(at 44.5262 114.6048 0)
 			(effects
 				(font
@@ -6584,7 +6584,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF19")
+					(reference "STANDOFF4")
 					(unit 1)
 				)
 			)
@@ -6599,7 +6599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba0fd0e0-c936-480d-9b7f-ec0cfba83af8")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 105.41 83.82 90)
 			(effects
 				(font
@@ -6681,7 +6681,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6696,7 +6696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc4eceb6-a7b0-40c7-aee5-44ca9b5183f6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR08"
 			(at 48.26 173.99 0)
 			(effects
 				(font
@@ -6745,7 +6745,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6760,7 +6760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c19465b8-d3fc-42f7-97a5-906da76ad3a9")
-		(property "Reference" "STANDOFF18"
+		(property "Reference" "STANDOFF3"
 			(at 44.5262 104.4448 0)
 			(effects
 				(font
@@ -6837,7 +6837,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF18")
+					(reference "STANDOFF3")
 					(unit 1)
 				)
 			)
@@ -6852,7 +6852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0248bbd-d48f-4238-a648-d26841ec11b2")
-		(property "Reference" "STANDOFF12"
+		(property "Reference" "STANDOFF17"
 			(at 235.6612 96.8248 0)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF12")
+					(reference "STANDOFF17")
 					(unit 1)
 				)
 			)
@@ -6935,7 +6935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2ac9d37-8b2b-4e8f-b0f0-8724e1bba74a")
-		(property "Reference" "STANDOFF9"
+		(property "Reference" "STANDOFF14"
 			(at 234.3912 51.1048 0)
 			(effects
 				(font
@@ -7003,7 +7003,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF9")
+					(reference "STANDOFF14")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7b49aa6-6e91-4bd7-824c-b480c89ff799")
-		(property "Reference" "STANDOFF4"
+		(property "Reference" "STANDOFF9"
 			(at 86.9188 110.7948 0)
 			(effects
 				(font
@@ -7096,7 +7096,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF4")
+					(reference "STANDOFF9")
 					(unit 1)
 				)
 			)
@@ -7203,7 +7203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e72e0031-af71-4f2e-b371-cbfe6175b2df")
-		(property "Reference" "STANDOFF20"
+		(property "Reference" "STANDOFF5"
 			(at 44.5262 124.7648 0)
 			(effects
 				(font
@@ -7289,7 +7289,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF20")
+					(reference "STANDOFF5")
 					(unit 1)
 				)
 			)
@@ -7304,7 +7304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8d5c5e8-cea4-4fbb-9e1f-911739574519")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR09"
 			(at 72.39 181.61 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR022")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7369,7 +7369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edbdfcb9-46ed-4b1a-9369-e0e53875f4c1")
-		(property "Reference" "STANDOFF5"
+		(property "Reference" "STANDOFF10"
 			(at 86.9188 122.2248 0)
 			(effects
 				(font
@@ -7437,7 +7437,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF5")
+					(reference "STANDOFF10")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee98098e-1e35-49fa-b820-01aa09da9fb8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR018"
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -7501,7 +7501,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR06")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7517,7 +7517,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efadfd4d-faa7-4738-b66b-129b9f006334")
-		(property "Reference" "STANDOFF2"
+		(property "Reference" "STANDOFF7"
 			(at 86.9188 65.0748 0)
 			(effects
 				(font
@@ -7594,7 +7594,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "STANDOFF2")
+					(reference "STANDOFF7")
 					(unit 1)
 				)
 			)
@@ -7610,7 +7610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f91f3aa3-e282-44d5-8135-15665078708b")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 105.41 144.78 90)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 		(instances
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
