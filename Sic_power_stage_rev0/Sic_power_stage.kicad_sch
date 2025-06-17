@@ -791,161 +791,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "pasv-res:R-1206"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 6.35 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R-1206"
-				(at 6.35 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" "Chip resistor, EIA 1206, metric 3216"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "BOM" "RES SMD 1k 5% [1206]"
-				(at 19.05 13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "RESC3216X60"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R-1206_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R-1206_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power1:PWRGND"
 			(power)
 			(pin_names
@@ -1242,6 +1087,19 @@
 		)
 		(uuid "d1ea16aa-4644-4d5f-81e6-21a7c4ac636e")
 	)
+	(text "3.3V connection - To be defined!"
+		(exclude_from_sim no)
+		(at 92.202 179.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+				(color 255 0 2 1)
+			)
+		)
+		(uuid "e44d5126-87e8-4254-a8e5-c5da7379540c")
+	)
 	(text "SiC MOSFET Powerstage"
 		(exclude_from_sim no)
 		(at 162.814 22.86 0)
@@ -1279,12 +1137,6 @@
 		(diameter 0)
 		(color 0 0 255 1)
 		(uuid "35fdade2-427c-4d02-8cfb-bdfd1e82aca8")
-	)
-	(junction
-		(at 77.47 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51dfd1bc-c208-49d5-9a43-53f5a403d8f1")
 	)
 	(junction
 		(at 105.41 111.76)
@@ -1481,16 +1333,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 181.61) (xy 87.63 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e80ffd-e645-40cb-91ba-ee338652bc61")
-	)
-	(wire
-		(pts
 			(xy 31.115 115.57) (xy 36.195 115.57)
 		)
 		(stroke
@@ -1509,6 +1351,16 @@
 			(type dash)
 		)
 		(uuid "0d3ffbf4-d252-4e88-930d-c9076290ca3a")
+	)
+	(wire
+		(pts
+			(xy 35.56 167.64) (xy 36.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d85bfa1-1cc9-4e72-b883-fc67eb4bdded")
 	)
 	(wire
 		(pts
@@ -1747,16 +1599,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 185.42) (xy 77.47 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43891de8-875f-4576-8bb3-a1fd0ae20aa6")
-	)
-	(wire
-		(pts
 			(xy 100.33 81.28) (xy 93.98 81.28)
 		)
 		(stroke
@@ -1775,16 +1617,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "45fcab42-6c7c-451e-a6ce-7c2a646936f6")
-	)
-	(wire
-		(pts
-			(xy 77.47 189.23) (xy 80.01 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad23eb3-5983-43cd-8fec-afa6729956d6")
 	)
 	(wire
 		(pts
@@ -1847,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "50fa9ae6-1cda-4109-a51f-27f0f31f7dbe")
-	)
-	(wire
-		(pts
-			(xy 35.56 167.64) (xy 36.83 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "532859d3-89c0-4c6a-a82f-f4764a2c8d72")
 	)
 	(wire
 		(pts
@@ -2105,16 +1927,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 181.61) (xy 77.47 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7fdc57-2a3a-45bb-a796-850cb9089f5b")
-	)
-	(wire
-		(pts
 			(xy 95.25 31.75) (xy 105.41 31.75)
 		)
 		(stroke
@@ -2211,6 +2023,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 173.99) (xy 119.38 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a45fcd-3a87-47d6-a6fb-21c07ae1cac7")
+	)
+	(wire
+		(pts
 			(xy 105.41 157.48) (xy 105.41 158.75)
 		)
 		(stroke
@@ -2219,16 +2041,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "91e0ad1c-9da5-4c8d-b71a-c1282d8d05fd")
-	)
-	(wire
-		(pts
-			(xy 77.47 185.42) (xy 77.47 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c15e38-98d6-4628-be71-d104edd105b0")
 	)
 	(wire
 		(pts
@@ -2269,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "95c82d41-194f-4f6e-a964-330aad149170")
-	)
-	(wire
-		(pts
-			(xy 85.09 189.23) (xy 91.44 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f2a4ec-6659-4890-aa4e-4370735991ba")
 	)
 	(wire
 		(pts
@@ -2448,17 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 181.61) (xy 96.52 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c127c4d3-3245-4acd-a9d1-e4493d92a7a9")
-	)
-	(wire
-		(pts
-			(xy 48.26 167.64) (xy 46.99 167.64)
+			(xy 46.99 167.64) (xy 48.26 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2723,26 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 181.61) (xy 77.47 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea132c98-1a6a-4dff-9d96-d928202755ea")
-	)
-	(wire
-		(pts
-			(xy 72.39 182.88) (xy 72.39 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef877092-b426-4aeb-8d1d-5146117fed3a")
-	)
-	(wire
-		(pts
 			(xy 105.41 76.2) (xy 105.41 77.47)
 		)
 		(stroke
@@ -2825,6 +2597,26 @@
 		)
 		(uuid "64fd983b-290c-4f55-9646-97c867eacc3a")
 	)
+	(label "VBUS_M"
+		(at 105.41 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91f50633-5f0d-489f-a7b5-e4bd1f25fba6")
+	)
+	(label "VBUS_M"
+		(at 48.26 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6f5e604-5850-4d38-9317-8f1c2b131a2a")
+	)
 	(label "nc_a"
 		(at 98.298 132.08 0)
 		(effects
@@ -2834,6 +2626,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3457d9e-e480-45f2-b649-26ea0721faa4")
+	)
+	(label "VBUS_M"
+		(at 35.56 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e16c48cb-e60b-41df-80d8-21fc9b1b4eb3")
 	)
 	(symbol
 		(lib_id "paltatech:MOUNTING_HOLE")
@@ -2931,70 +2733,6 @@
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
 					(reference "HOLE4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power1:VBUS")
-		(at 96.52 181.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00d26dc4-983b-4e3d-b5af-e16f1574f401")
-		(property "Reference" "#PWR014"
-			(at 97.79 181.61 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 98.7552 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3fe453a9-1ea0-441c-a663-6591b8371a1c")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3409,71 +3147,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power1:PWRGND")
-		(at 91.44 189.23 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1210e227-39b3-49c4-809f-5499de67ce7b")
-		(property "Reference" "#PWR010"
-			(at 91.44 189.23 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWRGND"
-			(at 93.218 189.23 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ada0e3df-8189-44c7-8130-d9e5a9f260d4")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power1:VBUS")
 		(at 105.41 121.92 0)
 		(unit 1)
@@ -3615,84 +3288,6 @@
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
 					(reference "STANDOFF8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pasv-res:R-1206")
-		(at 82.55 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20bccff0-7677-4123-be52-1f7ad9fb94a2")
-		(property "Reference" "R1"
-			(at 84.328 178.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R-1206"
-			(at 83.8516 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-			(at 82.55 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Chip resistor, EIA 1206, metric 3216"
-			(at 82.55 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
-			(at 68.58 162.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0e58fff-efb8-43b4-8f83-f4b559478898")
-		)
-		(pin "2"
-			(uuid "4614d458-e1b7-4a25-94e8-f535c60d53d4")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4835,70 +4430,6 @@
 	)
 	(symbol
 		(lib_id "power1:VBUS")
-		(at 35.56 167.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4ca0496e-82d4-4d05-8537-968a09b23ce1")
-		(property "Reference" "#PWR04"
-			(at 34.29 167.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_low"
-			(at 33.3248 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56e08264-6d23-4988-88d1-b8374331eeec")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power1:VBUS")
 		(at 31.115 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5434,84 +4965,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pasv-res:R-1206")
-		(at 90.17 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79bc1bd7-f25c-40d8-ab47-13bba07a3cc8")
-		(property "Reference" "R3"
-			(at 92.202 178.816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R-1206"
-			(at 91.4716 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-			(at 90.17 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Chip resistor, EIA 1206, metric 3216"
-			(at 90.17 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
-			(at 76.2 162.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98cfec55-eda4-4fae-8809-deb387f2de98")
-		)
-		(pin "2"
-			(uuid "544c5ecc-f084-4abe-ad68-4901a75ee725")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "paltatech:MOUNTING_HOLE")
 		(at 38.1 73.66 0)
 		(unit 1)
@@ -5881,148 +5334,6 @@
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power1:VBUS")
-		(at 48.26 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "861083bc-f257-4a8a-9804-60f6553c4845")
-		(property "Reference" "#PWR07"
-			(at 49.53 167.64 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_low"
-			(at 50.4952 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fe4f083-697f-4721-9820-c7d5e6a60064")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pasv-res:R-1206")
-		(at 82.55 189.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "892fa4ba-b210-4aa2-a4b4-eda2706e3225")
-		(property "Reference" "R2"
-			(at 84.582 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R-1206"
-			(at 83.8516 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-			(at 82.55 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 189.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" "Chip resistor, EIA 1206, metric 3216"
-			(at 82.55 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
-			(at 68.58 170.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "449c4386-56cf-4b0e-8e3d-9a69e1166adb")
-		)
-		(pin "2"
-			(uuid "b0cb5814-5951-40ad-a9e1-eccc0b014230")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7296,70 +6607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power1:VBUS")
-		(at 72.39 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8d5c5e8-cea4-4fbb-9e1f-911739574519")
-		(property "Reference" "#PWR09"
-			(at 72.39 181.61 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_low"
-			(at 72.39 180.6448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56d20775-5767-46c0-b00a-07bbb1453927")
-		)
-		(instances
-			(project "Sic_power_stage"
-				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "paltatech:MOUNTING_HOLE")
 		(at 90.17 123.19 0)
 		(mirror y)
@@ -7862,7 +7109,7 @@
 	)
 	(sheet
 		(at 119.38 170.815)
-		(size 50.8 22.225)
+		(size 50.8 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7876,7 +7123,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2d1bf39f-06d9-4baa-ac26-c6352d3cee78")
-		(property "Sheetname" "Discharge_circuit"
+		(property "Sheetname" "Discharge_circuit and Vbus resistor"
 			(at 119.38 170.1034 0)
 			(effects
 				(font
@@ -7886,12 +7133,42 @@
 			)
 		)
 		(property "Sheetfile" "discharge_circuit.kicad_sch"
-			(at 119.38 193.6246 0)
+			(at 119.38 187.9096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS_LOW" input
+			(at 119.38 173.99 180)
+			(uuid "bb6eabf0-0ae3-4fb0-9311-a369e86cdb4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V+" input
+			(at 119.38 179.07 180)
+			(uuid "c696086e-c692-4f84-8f81-f75ae52945e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 119.38 184.15 180)
+			(uuid "2d42c858-8dfb-438a-9fcd-2f07c3e56911")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -1960,6 +1960,16 @@
 		)
 		(uuid "116a5e43-96e1-444b-b95d-bff87aacd35a")
 	)
+	(text "We need to define the resistor value for current measurement chain"
+		(exclude_from_sim no)
+		(at 235.966 109.474 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21f63a8d-d3f6-470a-ad2f-69d832ff5a30")
+	)
 	(text "Desaturation point (D_TOP, S_TOP)\n"
 		(exclude_from_sim no)
 		(at 29.21 54.102 0)
@@ -1993,7 +2003,7 @@
 		)
 		(uuid "52ae555c-cc4f-4650-88d8-7867c1d3b464")
 	)
-	(text "3.3uF film capacitor\n"
+	(text "5uF film capacitor\n"
 		(exclude_from_sim no)
 		(at 244.856 42.672 0)
 		(effects
@@ -5918,7 +5928,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "63440195-3e23-491b-ad9c-ee71477aeeb3")
 		(property "Reference" "C13"
 			(at 263.144 51.816 0)
