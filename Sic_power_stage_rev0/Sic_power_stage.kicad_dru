@@ -1,64 +1,42 @@
 (version 0.1)
 
 (rule "HV_400v_clearance"
+	(layer outer)
 	(condition "A.NetClass == 'HV' && B.NetClass != A.NetClass")
 	(constraint clearance (min 2.5mm)))
 
+(rule "HV_400v_inner_clearance"
+	(layer inner)
+	(condition "A.NetClass == 'HV' && B.NetClass != A.NetClass")
+	(constraint clearance (min 1.5mm)))
 
 (rule "Phase_A_mutual_clearance"
-	(layer inner)
     (condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
     (constraint clearance (min 2.5mm)))
-
 
 (rule "Phase_A_self_clearance"
     (condition "A.NetClass == 'class_phase_a_node' && B.NetClass == A.NetClass")
     (constraint clearance (min 0.35mm)))
 
-
 (rule "Phase_B_mutual_clearance"
-	(layer F.Cu)
     (condition "A.NetClass == 'class_phase_b_node' && B.NetClass != A.NetClass")
     (constraint clearance (min 2.5mm)))
 
-
 (rule "Phase_B_self_clearance"
-	#(layer inner)
     (condition "A.NetClass == 'class_phase_b_node' && B.NetClass == A.NetClass")
     (constraint clearance (min 0.35mm)))
 
-
 (rule "Phase_C_mutual_clearance"
-	(layer inner)
     (condition "A.NetClass == 'class_phase_c_node' && B.NetClass != A.NetClass")
     (constraint clearance (min 2.5mm)))
-
 
 (rule "Phase_C_self_clearance"
     (condition "A.NetClass == 'class_phase_c_node' && B.NetClass == A.NetClass")
     (constraint clearance (min 0.35mm)))
 
 
-(rule "PWRGND_self_clearance"
-	(layer outer)
-	(condition "A.NetClass == 'PWRGND' && B.NetClass == A.NetClass")
-	(constraint clearance (min 0.35mm)))
+#(rule "PWRGND_self_clearance"
+#	(layer outer)
+#	(condition "A.NetClass == 'PWRGND'  && B.NetClass == A.NetClass")
+#	(constraint clearance (min 0.35mm)))
 
-
-(rule "PWRGND_mutual_clearance"
-	(layer B.Cu)
-	(condition "A.NetClass == 'PWRGND' && B.NetClass != A.NetClass")
-	(constraint clearance (min 2.5mm)))
-
-
-(rule "G_bot_clearance"
-	(condition "A.NetClass == 'PWRGND' && B.NetClass == 'class_G_bot'")
-	(constraint clearance (min 0.65mm)))
-
-
-# add constrait for node a
-
-#(rule "Node_a_mutual_clearance"
-#	(layer inner)
-#	(condition "A.NetClass == 'class_phase_a_node' && B.NetClass != A.NetClass")
-#	(constraint clearance (min 2.5mm)))

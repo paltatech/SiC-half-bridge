@@ -498,7 +498,6 @@
         "bus_width": 12,
         "clearance": 2.5,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -516,7 +515,6 @@
         "bus_width": 12,
         "clearance": 0.35,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -534,7 +532,6 @@
         "bus_width": 12,
         "clearance": 0.35,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -552,7 +549,6 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -570,7 +566,6 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -588,7 +583,6 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -606,7 +600,6 @@
         "bus_width": 12,
         "clearance": 0.6,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -752,7 +745,7 @@
         "pattern": "VBUS_low"
       },
       {
-        "netclass": "PWRGND",
+        "netclass": "Default",
         "pattern": "PWRGND"
       },
       {
@@ -764,7 +757,7 @@
         "pattern": "/Half Bridge B/S_BOT"
       },
       {
-        "netclass": "PWRGND",
+        "netclass": "Default",
         "pattern": "/Half Bridge A/S_BOT"
       },
       {
@@ -776,11 +769,11 @@
         "pattern": "/Half Bridge A/G_BOT"
       },
       {
-        "netclass": "class_G_bot",
+        "netclass": "Default",
         "pattern": "/Half Bridge A/G_bottom_1"
       },
       {
-        "netclass": "class_G_bot",
+        "netclass": "Default",
         "pattern": "/Half Bridge A/G_bottom_2"
       },
       {
@@ -788,7 +781,7 @@
         "pattern": "/Half Bridge A/node_a"
       },
       {
-        "netclass": "PWRGND",
+        "netclass": "Default",
         "pattern": "/Half Bridge A/NTC_BOT"
       },
       {
