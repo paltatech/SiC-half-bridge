@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 5.41,
-          "height": 7.14,
-          "width": 7.14
+          "drill": 0.0,
+          "height": 8.9,
+          "width": 8.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -765,7 +765,7 @@
         "pattern": "/Half Bridge A/G_bottom"
       },
       {
-        "netclass": "PWRGND",
+        "netclass": "Default",
         "pattern": "/Half Bridge A/G_BOT"
       },
       {
@@ -803,6 +803,10 @@
       {
         "netclass": "class_phase_b_node",
         "pattern": "/Half Bridge B/SHUNT-"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/node_a"
       }
     ]
   },
