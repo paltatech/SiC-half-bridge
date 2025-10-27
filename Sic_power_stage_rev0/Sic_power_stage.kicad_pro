@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 10.8,
-          "width": 9.4
+          "drill": 5.41,
+          "height": 7.14,
+          "width": 7.14
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -729,7 +729,7 @@
         "pattern": "/Half Bridge B/SHUNT+"
       },
       {
-        "netclass": "low_VBUS",
+        "netclass": "class_phase_a_node",
         "pattern": "/Half Bridge A/D_TOP"
       },
       {
@@ -807,6 +807,10 @@
       {
         "netclass": "class_phase_c_node",
         "pattern": "/Half Bridge C/node_a"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/nc_a"
       }
     ]
   },
