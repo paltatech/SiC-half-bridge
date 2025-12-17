@@ -4047,7 +4047,7 @@
 	)
 	(symbol
 		(lib_id "pasv-res:R-1206")
-		(at 115.57 54.61 180)
+		(at 115.57 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4055,7 +4055,7 @@
 		(dnp no)
 		(uuid "c4abf66e-9fb2-41c6-8a81-f1975b14b650")
 		(property "Reference" "R34"
-			(at 112.776 52.832 90)
+			(at 112.776 61.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Value" "R-1206"
-			(at 113.03 53.3084 0)
+			(at 113.03 62.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,7 +4074,7 @@
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-			(at 115.57 54.61 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 55.88 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Chip resistor, EIA 1206, metric 3216"
-			(at 115.57 54.61 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 		(property "BOM" "RES SMD 1k 5% [1206]"
-			(at 96.52 68.58 0)
+			(at 96.52 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4580,7 +4580,7 @@
 	)
 	(symbol
 		(lib_id "pasv-res:R-1206")
-		(at 115.57 63.5 180)
+		(at 115.57 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4588,7 +4588,7 @@
 		(dnp no)
 		(uuid "e6df52f8-daba-4391-b1a6-85d79f6b16a3")
 		(property "Reference" "R35"
-			(at 112.776 61.468 90)
+			(at 112.776 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Value" "R-1206"
-			(at 113.03 62.1984 0)
+			(at 113.03 53.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
-			(at 115.57 63.5 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 64.77 0)
+			(at 115.57 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4624,7 +4624,7 @@
 			)
 		)
 		(property "Description" "Chip resistor, EIA 1206, metric 3216"
-			(at 115.57 63.5 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4633,7 @@
 			)
 		)
 		(property "BOM" "RES SMD 1k 5% [1206]"
-			(at 96.52 77.47 0)
+			(at 96.52 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
