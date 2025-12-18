@@ -5949,7 +5949,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "63440195-3e23-491b-ad9c-ee71477aeeb3")
 		(property "Reference" "C13"
