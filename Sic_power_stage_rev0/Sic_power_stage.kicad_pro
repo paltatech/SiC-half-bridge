@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 2.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -711,7 +711,7 @@
         "pattern": "/Half Bridge C/S_TOP"
       },
       {
-        "netclass": "class_phase_c_node",
+        "netclass": "Default",
         "pattern": "/Half Bridge C/D_BOT"
       },
       {
