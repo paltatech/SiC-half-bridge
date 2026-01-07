@@ -3064,7 +3064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 109.22 0)
 			(effects
 				(font
