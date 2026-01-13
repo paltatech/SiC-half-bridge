@@ -461,7 +461,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -514,7 +514,7 @@
         "microvia_drill": 0.1,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -531,7 +531,24 @@
         "microvia_drill": 0.1,
         "name": "PWRGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.8,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.5,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "V_bus_sense",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -548,7 +565,7 @@
         "microvia_drill": 0.1,
         "name": "class_G_bot",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -565,7 +582,7 @@
         "microvia_drill": 0.1,
         "name": "class_phase_a_node",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -582,7 +599,7 @@
         "microvia_drill": 0.1,
         "name": "class_phase_b_node",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -599,7 +616,7 @@
         "microvia_drill": 0.1,
         "name": "class_phase_c_node",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -616,7 +633,7 @@
         "microvia_drill": 0.1,
         "name": "low_VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -631,188 +648,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "HV",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/G_TOP"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/GT1"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/GT2"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/GT3"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/S_TOP"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge A/D_BOT"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/G_TOP"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/GT1"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/GT2"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/GT3"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/S_TOP"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge B/D_BOT"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/PHASE"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/PHASE"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/G_TOP"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/GT1"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/GT2"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/GT3"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/S_TOP"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge C/D_BOT"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/PHASE"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/SHUNT+"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/SHUNT-"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/SHUNT+"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/SHUNT-"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/SHUNT+"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/D_TOP"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/D_TOP"
-      },
-      {
-        "netclass": "class_phase_c_node",
-        "pattern": "/Half Bridge C/D_TOP"
-      },
-      {
         "netclass": "low_VBUS",
         "pattern": "VBUS_low"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "VBUS"
       },
       {
         "netclass": "Default",
         "pattern": "PWRGND"
       },
       {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge B/G_BOT"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge B/S_BOT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge A/S_BOT"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge A/G_bottom"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge A/G_BOT"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge A/G_bottom_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge A/G_bottom_2"
-      },
-      {
-        "netclass": "class_phase_a_node",
-        "pattern": "/Half Bridge A/node_a"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Half Bridge A/NTC_BOT"
+        "netclass": "class_phase_c_node",
+        "pattern": "/nc_a"
       },
       {
         "netclass": "PWRGND",
         "pattern": "/nc"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/node_a"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge B/G_bottom_1"
-      },
-      {
-        "netclass": "PWRGND",
-        "pattern": "/Half Bridge B/G_bottom_2"
-      },
-      {
-        "netclass": "class_phase_b_node",
-        "pattern": "/Half Bridge B/SHUNT-"
       },
       {
         "netclass": "class_phase_c_node",
@@ -820,7 +673,179 @@
       },
       {
         "netclass": "class_phase_c_node",
-        "pattern": "/nc_a"
+        "pattern": "/Half Bridge C/S_TOP"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/SHUNT-"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/SHUNT+"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/PHASE"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/G_TOP"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/GT3"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/GT2"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/GT1"
+      },
+      {
+        "netclass": "class_phase_c_node",
+        "pattern": "/Half Bridge C/D_TOP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge C/D_BOT"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/node_a"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/S_TOP"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/S_BOT"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/SHUNT-"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/SHUNT+"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/PHASE"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/G_bottom_2"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/G_bottom_1"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/G_TOP"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/G_BOT"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/GT3"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/GT2"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/GT1"
+      },
+      {
+        "netclass": "class_phase_b_node",
+        "pattern": "/Half Bridge B/D_TOP"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge B/D_BOT"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/node_a"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/S_TOP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge A/S_BOT"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/SHUNT-"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/SHUNT+"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/PHASE"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge A/NTC_BOT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge A/G_bottom_2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge A/G_bottom_1"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/G_bottom"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/G_TOP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Half Bridge A/G_BOT"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/GT3"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/GT2"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/GT1"
+      },
+      {
+        "netclass": "class_phase_a_node",
+        "pattern": "/Half Bridge A/D_TOP"
+      },
+      {
+        "netclass": "PWRGND",
+        "pattern": "/Half Bridge A/D_BOT"
+      },
+      {
+        "netclass": "V_bus_sense",
+        "pattern": "/Discharge_circuit and Vbus resistor/PHASE_HV_A_2"
+      },
+      {
+        "netclass": "V_bus_sense",
+        "pattern": "/Discharge_circuit and Vbus resistor/PHASE_HV_A_1"
       }
     ]
   },

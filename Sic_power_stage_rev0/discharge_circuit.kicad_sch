@@ -2769,6 +2769,26 @@
 		)
 		(uuid "ffdf2469-b8cc-469f-a195-cca353298925")
 	)
+	(label "PHASE_HV_A_2"
+		(at 83.82 46.99 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ac8be4c-ef24-42ca-8736-fdd244c00120")
+	)
+	(label "PHASE_HV_A_1"
+		(at 83.82 38.1 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "65023af9-79e1-4e70-bac5-724fa6b7af68")
+	)
 	(hierarchical_label "3.3V+"
 		(shape input)
 		(at 91.44 142.24 180)
@@ -2926,7 +2946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C-0603"
+		(property "Value" "100n"
 			(at 163.83 146.0499 0)
 			(effects
 				(font
@@ -2995,7 +3015,7 @@
 		(dnp no)
 		(uuid "32af280f-fc5a-4dff-90a5-b3362037cd4c")
 		(property "Reference" "R1"
-			(at 81.026 58.928 90)
+			(at 81.28 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,17 +3023,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
-			(at 81.28 59.6584 0)
+		(property "Value" "5K"
+			(at 81.28 62.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -3081,7 +3100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "10R"
 			(at 151.1616 133.35 0)
 			(effects
 				(font
@@ -3091,7 +3110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 149.86 135.89 0)
 			(effects
 				(font
@@ -3117,11 +3136,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 10 OHM 1% 1/4W 0805"
 			(at 135.89 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 149.86 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510R0FKEA"
+			(at 149.86 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3224,7 +3261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 32.9884 0)
 			(effects
 				(font
@@ -3462,7 +3499,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 32.9884 0)
 			(effects
 				(font
@@ -3498,11 +3535,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3540,7 +3595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 92.6784 0)
 			(effects
 				(font
@@ -3576,11 +3631,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3618,7 +3691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 43.1484 0)
 			(effects
 				(font
@@ -3654,11 +3727,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3696,7 +3787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "365K"
 			(at 156.2416 113.03 0)
 			(effects
 				(font
@@ -3732,11 +3823,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 365K OHM 1% 1/4W 1206"
 			(at 140.97 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 154.94 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW1206365KFKEA"
+			(at 154.94 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3774,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 79.9784 0)
 			(effects
 				(font
@@ -3810,11 +3919,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3852,7 +3979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 54.5784 0)
 			(effects
 				(font
@@ -3888,11 +4015,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3995,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 67.2784 0)
 			(effects
 				(font
@@ -4031,11 +4176,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4143,7 +4306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "365K"
 			(at 148.6216 113.03 0)
 			(effects
 				(font
@@ -4179,11 +4342,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 365K OHM 1% 1/4W 1206"
 			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 147.32 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW1206365KFKEA"
+			(at 147.32 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4221,7 +4402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 32.9884 0)
 			(effects
 				(font
@@ -4257,11 +4438,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4299,7 +4498,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 173.99 79.9784 0)
 			(effects
 				(font
@@ -4335,11 +4534,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 176.53 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 176.53 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4459,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 54.5784 0)
 			(effects
 				(font
@@ -4495,11 +4712,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4537,7 +4772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 92.6784 0)
 			(effects
 				(font
@@ -4573,11 +4808,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4775,7 +5028,7 @@
 		(dnp no)
 		(uuid "c4abf66e-9fb2-41c6-8a81-f1975b14b650")
 		(property "Reference" "R34"
-			(at 81.026 49.022 90)
+			(at 81.534 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,14 +5036,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
-			(at 81.28 49.4984 0)
+		(property "Value" "220K"
+			(at 82.296 51.5304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
@@ -4861,7 +5113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 54.5784 0)
 			(effects
 				(font
@@ -4897,11 +5149,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 147.32 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 166.37 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 166.37 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4931,7 +5201,7 @@
 		(dnp no)
 		(uuid "c773be0d-a100-4e1e-ba02-727d6c9b9c39")
 		(property "Reference" "R36"
-			(at 81.026 30.988 90)
+			(at 81.534 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,14 +5209,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
-			(at 81.28 31.7184 0)
+		(property "Value" "220K"
+			(at 82.55 34.2584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
@@ -5095,7 +5364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 79.9784 0)
 			(effects
 				(font
@@ -5131,11 +5400,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 147.32 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 166.37 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 166.37 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5173,7 +5460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 43.1484 0)
 			(effects
 				(font
@@ -5209,11 +5496,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5251,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 168.91 67.2784 0)
 			(effects
 				(font
@@ -5287,11 +5592,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 171.45 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 171.45 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5329,7 +5652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 92.6784 0)
 			(effects
 				(font
@@ -5365,11 +5688,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 147.32 107.95 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 166.37 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 166.37 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5407,7 +5748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 43.1484 0)
 			(effects
 				(font
@@ -5443,11 +5784,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 147.32 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 166.37 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 166.37 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5550,7 +5909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "17.6K"
 			(at 163.83 67.2784 0)
 			(effects
 				(font
@@ -5586,11 +5945,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 17.6k 5% [1206]"
 			(at 147.32 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 166.37 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RNCF1206BKE17K6"
+			(at 166.37 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5620,7 +5997,7 @@
 		(dnp no)
 		(uuid "e6df52f8-daba-4391-b1a6-85d79f6b16a3")
 		(property "Reference" "R35"
-			(at 81.026 39.878 90)
+			(at 81.534 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,14 +6005,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
-			(at 81.28 40.6084 0)
+		(property "Value" "220K"
+			(at 82.296 42.8944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "IPC7351-Nominal:RESC3216X60"
@@ -5706,7 +6082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R-1206"
+		(property "Value" "365K"
 			(at 161.2584 118.11 0)
 			(effects
 				(font
@@ -5742,11 +6118,29 @@
 				(hide yes)
 			)
 		)
-		(property "BOM" "RES SMD 1k 5% [1206]"
+		(property "BOM" "RES SMD 365K OHM 1% 1/4W 1206"
 			(at 176.53 134.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay Dale"
+			(at 162.56 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW1206365KFKEA"
+			(at 162.56 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
