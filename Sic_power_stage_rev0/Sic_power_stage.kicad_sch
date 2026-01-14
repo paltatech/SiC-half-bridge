@@ -5,6 +5,128 @@
 	(uuid "40c6bde6-dca0-40b2-8abd-1f20772cb34b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "conn-100mil:CONN-100MIL-F-2x3"
 			(pin_numbers
 				(hide yes)
@@ -2044,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 187.96) (xy 109.22 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92993064-ee9b-478c-a0f9-30afa98b5cfc")
+	)
+	(wire
+		(pts
 			(xy 36.576 188.722) (xy 35.306 188.722)
 		)
 		(stroke
@@ -2123,6 +2255,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "9c989a4a-5c01-40e8-aabb-a2c4e646e391")
+	)
+	(wire
+		(pts
+			(xy 109.22 184.15) (xy 119.38 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d46271e-46ea-4b41-b9f9-46e7c277a29f")
 	)
 	(wire
 		(pts
@@ -2226,6 +2368,16 @@
 			(color 0 132 0 1)
 		)
 		(uuid "b7d9bd15-71cb-4ec7-beef-d318b4fc802c")
+	)
+	(wire
+		(pts
+			(xy 105.41 179.07) (xy 119.38 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba0d007d-1339-42bc-baed-e3f4ba1ace57")
 	)
 	(wire
 		(pts
@@ -5704,6 +5856,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power1:PWRGND")
+		(at 109.22 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a34b7b81-aa35-43d9-938a-942993a2675c")
+		(property "Reference" "#PWR010"
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWRGND"
+			(at 109.22 189.738 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3c44380-dc9d-4264-9424-87a32e69d374")
+		)
+		(instances
+			(project "Sic_power_stage"
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "conn-100mil:CONN-100MIL-F-2x3")
 		(at 105.41 35.56 0)
 		(unit 1)
@@ -6408,6 +6624,70 @@
 			(project "Sic_power_stage"
 				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
 					(reference "STANDOFF9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 100.33 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dad756ca-7c45-4177-b346-a5e2ed318361")
+		(property "Reference" "J9"
+			(at 99.568 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 100.33 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical"
+			(at 100.33 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 100.33 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e86e45b-5f10-46b3-8e57-3e64ff1bb654")
+		)
+		(instances
+			(project ""
+				(path "/40c6bde6-dca0-40b2-8abd-1f20772cb34b"
+					(reference "J9")
 					(unit 1)
 				)
 			)
